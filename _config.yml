@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Lorem ipsum"
-description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
-repository               : "RayeRen/acad-homepage.github.io"
+title                    : "Jiayu Wang(王嘉宇)"
+description              : "Undergraduates of Xi'an Jiaotong University"
+repository               : "https://github.com/JiayuuWang/JiayuuWang.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -21,14 +21,15 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Lorem ipsum"
+  name             : "Jiayu Wang(王嘉宇)"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "Lorem ipsum College"
-  location         : "Beijing, China"
+  bio              : "Undergraduates of Xi'an Jiaotong University"
+  location         : "Xi'an, China"
+  wechat           : "/images/wechat_qr.jpg"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "Lorem@ipsum.com"
+  googlescholar    : "https://scholar.google.com/citations?user=0xosaLIAAAAJ&hl=en"
+  email            : "jiayuw794@gmail.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -37,7 +38,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "https://github.com/JiayuuWang"
   google_plus      :
   keybase          :
   instagram        :
@@ -57,6 +58,10 @@ author:
   xing             :
   youtube          :
   wikipedia        :
+  links            :
+  - label: "WeChat"
+    icon: "fab fa-weixin"
+    url: "{{ '/images/wechat_qr.png' | relative_url }}"  # 没有公开链接就占位；
 
 
 # Reading Files
