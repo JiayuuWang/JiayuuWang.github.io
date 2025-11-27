@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 <strong>
-I'm a third-year Computer Science student at the College of Computer Science and Technology, Xi'an Jiaotong University, expected to earn my B.S. in Engineering in fall 2027. My research interests primarily focus on Large Language Model (LLM) Agents in Domain-specific Scenarios, and Autonomous Agents in Computer Use (CLI, GUI).
+I'm a third-year Computer Science student at the College of Computer Science and Technology, Xi'an Jiaotong University, expected to earn my B.S. in Engineering in fall 2027. My research interests primarily focus on Large Language Model (LLM) Agents in Domain-specific Scenarios, and Autonomous Agents in Computer Use (CLI, GUI). Contact me at jiayuw794@gmail.com.
 </strong>
 
 # 🔥 News

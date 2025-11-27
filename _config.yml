@@ -25,7 +25,7 @@ author:
   avatar           : "images/android-chrome-512x512.png"
   bio              : "Undergraduates of Xi'an Jiaotong University"
   location         : "Xi'an, China"
-  wechat           : "/images/wechat_qr.jpg"
+  wechat           : "/images/wechat_qr.png"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=0xosaLIAAAAJ&hl=en"
@@ -36,6 +36,8 @@ author:
   codepen          :
   dribbble         :
   flickr           :
+  cv               : # 简历文件的路径或外链
+  cv_label         : "CV / Resume"
   facebook         :
   foursquare       :
   github           : "https://github.com/JiayuuWang"
