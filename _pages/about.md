@@ -34,7 +34,9 @@ I'm a third-year Computer Science student at the College of Computer Science and
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 (submitted)</div><img src='images/2511.17198v1_01.png' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Designing Domain-Specific Agents via Hierarchical Task Abstraction Mechanism](https://arxiv.org/abs/2511.17198) | [code](https://github.com/earth-insights/GeoPlan-bench)
+**Designing Domain-Specific Agents via Hierarchical Task Abstraction Mechanism**
+
+[Paper](https://arxiv.org/abs/2511.17198) | [Code](https://github.com/earth-insights/GeoPlan-bench) | [Project](https://earth-insights.github.io/EarthAgent/)
 
 Kaiyu Li, **Jiayu Wang**, Zhi Wang, Hui Qiao, Weizhan Zhang, Deyu Meng, Xiangyong Cao
 - We introduce a novel agent design framework centered on a Hierarchical Task Abstraction Mechanism (HTAM). 
@@ -49,7 +51,7 @@ Kaiyu Li, **Jiayu Wang**, Zhi Wang, Hui Qiao, Weizhan Zhang, Deyu Meng, Xiangyon
 
 **DescribeEarth: Describe Anything for Remote Sensing Images**
 
-[Link](https://arxiv.org/abs/2509.25654) | [Code](https://github.com/earth-insights/DescribeEarth)
+[Paper](https://arxiv.org/abs/2509.25654) | [Code](https://github.com/earth-insights/DescribeEarth) | [Dataset](https://huggingface.co/datasets/earth-insights/DE-Dataset) | [Benchmark](https://huggingface.co/datasets/earth-insights/DE-Benchmark)
 
 Kaiyu Li, Zixuan Jiang, Xiangyong Cao, **Jiayu Wang**, Yuchen Xiao, Deyu Meng, Zhi Wang
 - We propose Geo-DLC, a novel task of object-level fine-grained image captioning for remote sensing.
