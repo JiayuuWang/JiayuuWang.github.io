@@ -47,7 +47,9 @@ Kaiyu Li, **Jiayu Wang**, Zhi Wang, Hui Qiao, Weizhan Zhang, Deyu Meng, Xiangyon
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI (submitted)</div><img src='images/2509.25654v1_01.png' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[DescribeEarth: Describe Anything for Remote Sensing Images](https://arxiv.org/abs/2509.25654) | [code](https://github.com/earth-insights/DescribeEarth)
+**DescribeEarth: Describe Anything for Remote Sensing Images**
+
+[Link](https://arxiv.org/abs/2509.25654) | [Code](https://github.com/earth-insights/DescribeEarth)
 
 Kaiyu Li, Zixuan Jiang, Xiangyong Cao, **Jiayu Wang**, Yuchen Xiao, Deyu Meng, Zhi Wang
 - We propose Geo-DLC, a novel task of object-level fine-grained image captioning for remote sensing.
