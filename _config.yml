@@ -63,7 +63,7 @@ author:
   links            :
   - label: "WeChat"
     icon: "fab fa-weixin"
-    url: "{{ '/images/wechat_qr.png' | relative_url }}"  # 没有公开链接就占位；
+    url: "/images/wechat_qr.png"  # 微信二维码图片
 
 
 # Reading Files
