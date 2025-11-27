@@ -23,9 +23,12 @@ I'm a third-year Computer Science student at the College of Computer Science and
 
 # 🔥 News
 - *2025.11.22*: &nbsp;🎉🎉 GeoPlan-bench Releases!
+- *2025.11.04*: &nbsp;🎉🎉 Earth-Insights WeChat Official Account's Paper-Deep-Dive Feature Releases!
 - *2025.10.21*: &nbsp;🎉🎉 Auto-Cursor Releases!
+- *2025.10.21*: &nbsp;🎉🎉 Earth-Insights Account has started cross-posting on RedNote!
+- *2025.10.03*: &nbsp;🎉🎉 Earth-Insights WeChat Official Account's first Semi-Weekly-Report Release!
 - *2025.09.15*: &nbsp;🎉🎉 EarthAgent succeeds in MVP test by AI Agent 2025 Committee!
-
+- *2025.08.24*: &nbsp;🎉🎉 I participate in the "First National College Student Artificial Intelligence Security Competition" ([Link](https://scss.bupt.edu.cn/info/1055/6018.htm)) held at Beijing University of Posts and Telecommunications and win the first prize!
 # 📝 Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 (submitted)</div><img src='images/2511.17198v1_01.png' alt="sym" width="80%"></div></div>
@@ -75,14 +78,14 @@ Auto-Cursor is **THE FIRST** (to the best of my knowledge) GUI-native orchestrat
 2. **Provide tangible GUI agent scenarios** that inspire new ideas for downstream industries—design, ops, education, assistive tech, and beyond.
 3. **Stimulate thinking on AI safety and software design**, showing how oversight, logging, and guardrails can coexist with highly capable automation.
 </div>
-<iframe src="https://player.bilibili.com/player.html?bvid=BV1weUvBoExk&page=1&high_quality=1&danmaku=0" width="80%" height="500" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe src="https://player.bilibili.com/player.html?bvid=BV1weUvBoExk&page=1&high_quality=1&danmaku=0" width="70%" height="500" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 <div markdown="1"> 
 ## 🔥**EarthAgent** [link](https://www.aiagent2025.com/projects/buq2zyaq05w2) (July 2025) 
 
 
 EarthAgent is a groundbreaking general AI agent for the remote sensing field, dedicated to making complex and high-threshold geospatial analysis more accessible and automated. It allows users to drive a fully automated workflow that integrates multimodal data acquisition, intelligent interpretation, and deep reasoning through simple natural language conversations. Whether with text or image inputs, EarthAgent can autonomously plan and execute tasks, reducing traditional manual analysis processes that used to take days to just minutes. It has attracted <span style="color:blue">**300+**</span> likes on RedNote. [link](https://www.xiaohongshu.com/explore/68d2b443000000001400bd21?xsec_token=YBz1lxaWzYRLK2xD2jWcZICLY7PQLbdt5qfafsk5X2LbM%3D&xsec_source=pc_creatormng)
 </div>
-<iframe src="https://player.bilibili.com/player.html?bvid=BV1PaUvBFE7A&page=1&high_quality=1&danmaku=0" width="80%"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe src="https://player.bilibili.com/player.html?bvid=BV1PaUvBFE7A&page=1&high_quality=1&danmaku=0" width="70%" height="500"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 <div markdown="1"> 
 ## 🔥**Earth-Insights WeChat Official Account Agent (地球洞察微信公众号)** (Oct 2025)
 This is an automated system that fetches the latest papers in the fields of remote sensing and deep learning. Through sophisticated design and arrangement, it utilizes document analysis agents and various document analysis tools to achieve fully automated analysis and summarization. Currently, it consists of two modules: the Semi-Weekly Report and the Paper Deep Dive. As of November 26, the official account has published a total of <span style="color:blue">**40+**</span> blogs, covering <span style="color:blue">**160+**</span> papers, accumulating over <span style="color:blue">**4,000**</span> reads, and attracting more than <span style="color:blue">**500**</span> followers, providing the community with convenient access to the latest information.
