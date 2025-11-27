@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm a third-year Computer Science student at the College of Computer Science and Technology, Xi'an Jiaotong University, expected to earn my B.S. in Engineering in 2027 fall. My research interests primarily focus on Large Language Models (LLM) Agent in Domain-specific Scenarios, Autonomous Agent in  Computer-use(CLI, GUI).
+I'm a third-year Computer Science student at the College of Computer Science and Technology, Xi'an Jiaotong University, expected to earn my B.S. in Engineering in fall 2027. My research interests primarily focus on Large Language Model (LLM) Agents in Domain-specific Scenarios, and Autonomous Agents in Computer Use (CLI, GUI).
 
 # 🔥 News
 - *2025.11.22*: &nbsp;🎉🎉 GeoPlan-bench Releases!
@@ -29,28 +29,27 @@ I'm a third-year Computer Science student at the College of Computer Science and
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 (submitted)</div><img src='images/2511.17198v1_01.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Designing Domain-Specific Agents via Hierarchical Task Abstraction Mechanism](https://arxiv.org/abs/2511.17198)\| [code](https://github.com/earth-insights/GeoPlan-bench)
+[Designing Domain-Specific Agents via Hierarchical Task Abstraction Mechanism](https://arxiv.org/abs/2511.17198) | [code](https://github.com/earth-insights/GeoPlan-bench)
 
 Kaiyu Li, **Jiayu Wang**, Zhi Wang, Hui Qiao, Weizhan Zhang, Deyu Meng, Xiangyong Cao
 - We introduce a novel agent design framework centered on a Hierarchical Task Abstraction Mechanism (HTAM). 
-- We instantiate this framework as EarthAgent, a multi-agent system tailored for complex geospatial analysis. To evaluate such complex planning capabilities.
-- We build GeoPlan-bench, a comprehensive benchmark of realistic, multi-step geospatial planning tasks. It is accompanied by a suite of carefully designed metrics to evaluate tool selection, path similarity, and logical completeness. 
+- We instantiate this framework as EarthAgent, a multi-agent system tailored for complex geospatial analysis. To evaluate such complex planning capabilities, we build GeoPlan-bench, a comprehensive benchmark of realistic, multi-step geospatial planning tasks. It is accompanied by a suite of carefully designed metrics to evaluate tool selection, path similarity, and logical completeness. 
 - Experiments show that EarthAgent substantially outperforms a range of established single- and multi-agent systems.
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI (submitted)</div><img src='images/2509.25654v1_01' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI (submitted)</div><img src='images/2509.25654v1_01.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[DescribeEarth: Describe Anything for Remote Sensing Images](https://arxiv.org/abs/2509.25654)\| [code](https://github.com/earth-insights/DescribeEarth)
+[DescribeEarth: Describe Anything for Remote Sensing Images](https://arxiv.org/abs/2509.25654) | [code](https://github.com/earth-insights/DescribeEarth)
 
 Kaiyu Li, Zixuan Jiang, Xiangyong Cao, **Jiayu Wang**, Yuchen Xiao, Deyu Meng, Zhi Wang
 - We propose Geo-DLC, a novel task of object-level fine-grained image captioning for remote sensing.
-- We construct DE-Dataset, a large-scale dataset contains 25 categories and 261,806 annotated instances with detailed descriptions of object attributes, relationships, and contexts. 
-- Furthermore, we introduce DE-Benchmark, a LLM-assisted question-answering based evaluation suite designed to systematically measure model capabilities on the Geo-DLC task.
+- We construct DE-Dataset, a large-scale dataset containing 25 categories and 261,806 annotated instances with detailed descriptions of object attributes, relationships, and contexts. 
+- Furthermore, we introduce DE-Benchmark, an LLM-assisted question-answering based evaluation suite designed to systematically measure model capabilities on the Geo-DLC task.
 - We also present DescribeEarth, a Multi-modal Large Language Model (MLLM) architecture explicitly designed for Geo-DLC. 
-- Our DescribeEarth model consistently outperforms state-of-the-art general MLLMs on DE-Benchmark, demonstrating superior factual accuracy, descriptive richness, and grammatical soundness, particularly in capturing intrinsic object features and surrounding environmental attributes across simple, complex, and even out-ofdistribution remote sensing scenarios. 
+- Our DescribeEarth model consistently outperforms state-of-the-art general MLLMs on DE-Benchmark, demonstrating superior factual accuracy, descriptive richness, and grammatical soundness, particularly in capturing intrinsic object features and surrounding environmental attributes across simple, complex, and even out-of-distribution remote sensing scenarios. 
 
 </div>
 </div>
@@ -59,7 +58,7 @@ Kaiyu Li, Zixuan Jiang, Xiangyong Cao, **Jiayu Wang**, Yuchen Xiao, Deyu Meng, Z
 # 🚀 Projects (selected)
 <div markdown="1"> 
 ## 🔥**Auto-Cursor** [link](https://github.com/JiayuuWang/Auto-Cursor) (Oct 2025) 
-Auto-Cursor is **THE FIRST**(best of my knowledge) GUI-native orchestration layer that pilots the Cursor IDE like a human operator. By combining large language models, visual grounding, and deterministic automation, the project explores how agents can build software without being confined to command-line tooling.
+Auto-Cursor is **THE FIRST** (to the best of my knowledge) GUI-native orchestration layer that pilots the Cursor IDE like a human operator. By combining large language models, visual grounding, and deterministic automation, the project explores how agents can build software without being confined to command-line tooling.
 
 
 ### Why Through GUI?
@@ -72,17 +71,17 @@ Auto-Cursor is **THE FIRST**(best of my knowledge) GUI-native orchestration laye
 2. **Provide tangible GUI agent scenarios** that inspire new ideas for downstream industries—design, ops, education, assistive tech, and beyond.
 3. **Stimulate thinking on AI safety and software design**, showing how oversight, logging, and guardrails can coexist with highly capable automation.
 </div>
-<video src=https://www.bilibili.com/video/BV1weUvBoExk controls="true" width="100%" height="100%" autoplay loop muted></video>
+<video src="https://www.bilibili.com/video/BV1weUvBoExk" controls="true" width="100%" height="100%" autoplay loop muted></video>
 <div markdown="1"> 
 ## 🔥**EarthAgent** [link](https://www.aiagent2025.com/projects/buq2zyaq05w2) (July 2025) 
 
 
-EarthAgent is a groundbreaking general AI agent for the remote sensing field, dedicated to making complex and high-threshold geospatial analysis more accessible and automated. It allows users to drive a fully automated workflow that integrates multimodal data acquisition, intelligent interpretation, and deep reasoning through simple natural language conversations. Whether with text or image inputs, EarthAgent can autonomously plan and execute tasks, reducing traditional manual analysis processes that used to take days to just minutes. It has attracted <span style="color:blue">**300+**</span> likes on RedNote.[link](https://www.xiaohongshu.com/explore/68d2b443000000001400bd21?xsec_token=YBz1lxaWzYRLK2xD2jWcZICLY7PQLbdt5qfafsk5X2LbM%3D&xsec_source=pc_creatormng)
+EarthAgent is a groundbreaking general AI agent for the remote sensing field, dedicated to making complex and high-threshold geospatial analysis more accessible and automated. It allows users to drive a fully automated workflow that integrates multimodal data acquisition, intelligent interpretation, and deep reasoning through simple natural language conversations. Whether with text or image inputs, EarthAgent can autonomously plan and execute tasks, reducing traditional manual analysis processes that used to take days to just minutes. It has attracted <span style="color:blue">**300+**</span> likes on RedNote. [link](https://www.xiaohongshu.com/explore/68d2b443000000001400bd21?xsec_token=YBz1lxaWzYRLK2xD2jWcZICLY7PQLbdt5qfafsk5X2LbM%3D&xsec_source=pc_creatormng)
 </div>
-<video src=https://www.bilibili.com/video/BV1PaUvBFE7A/ width="100%" height="100%" controls="controls"></video>
+<video src="https://www.bilibili.com/video/BV1PaUvBFE7A/" width="100%" height="100%" controls="controls"></video>
 <div markdown="1"> 
-## 🔥**Earth-Insights-WeChat-Official-Account-Agent (**地球洞察**微信公众号)** 
-This is an automated system that fetches the latest papers in the fields of remote sensing and deep learning. Through sophisticated design and arrangement, it utilizes document analysis agents and various document analysis tools to achieve fully automated analysis and summarization. Currently, it consists of two modules: the Semi-Weekly Report and the Paper Deep Dive. As of today (November 26), the official account has published a total of <span style="color:blue">**40+**</span> blogs, covering <span style="color:blue">**160+**</span>, accumulated over <span style="color:blue">**4,000**</span> reads, and attracted more than <span style="color:blue">**500**</span> followers, providing the community with convenient access to the latest information.
-- Semi-Weekly Report Demo：[link](https://mp.weixin.qq.com/s/iNYby5U9HvpnGki1JaaV7w)
-- Paper Deep Dive Demo：[link](https://mp.weixin.qq.com/s/6B67lV7Se1zRXL7kl1sWqw) 
+## 🔥**Earth-Insights WeChat Official Account Agent (地球洞察微信公众号)** (Oct 2025)
+This is an automated system that fetches the latest papers in the fields of remote sensing and deep learning. Through sophisticated design and arrangement, it utilizes document analysis agents and various document analysis tools to achieve fully automated analysis and summarization. Currently, it consists of two modules: the Semi-Weekly Report and the Paper Deep Dive. As of November 26, the official account has published a total of <span style="color:blue">**40+**</span> blogs, covering <span style="color:blue">**160+**</span> papers, accumulating over <span style="color:blue">**4,000**</span> reads, and attracting more than <span style="color:blue">**500**</span> followers, providing the community with convenient access to the latest information.
+- Semi-Weekly Report Demo: [link](https://mp.weixin.qq.com/s/iNYby5U9HvpnGki1JaaV7w)
+- Paper Deep Dive Demo: [link](https://mp.weixin.qq.com/s/6B67lV7Se1zRXL7kl1sWqw) 
 </div>
