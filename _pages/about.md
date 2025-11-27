@@ -55,7 +55,7 @@ Kaiyu Li, Zixuan Jiang, Xiangyong Cao, **Jiayu Wang**, Yuchen Xiao, Deyu Meng, Z
 </div>
 
 
-# 🚀 Projects (selected)
+# 🚀 Projects 
 <div markdown="1"> 
 ## 🔥**Auto-Cursor** [link](https://github.com/JiayuuWang/Auto-Cursor) (Oct 2025) 
 Auto-Cursor is **THE FIRST** (to the best of my knowledge) GUI-native orchestration layer that pilots the Cursor IDE like a human operator. By combining large language models, visual grounding, and deterministic automation, the project explores how agents can build software without being confined to command-line tooling.
