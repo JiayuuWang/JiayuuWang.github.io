@@ -24,9 +24,11 @@ I'm a third-year Computer Science student at the College of Computer Science and
 # 🔥 News
 - *2025.11.22*: &nbsp;🎉🎉 GeoPlan-bench Releases!
 - *2025.11.04*: &nbsp;🎉🎉 Earth-Insights WeChat Official Account's Paper-Deep-Dive Feature Releases!
+- *2025.10.28*: &nbsp;🎉🎉 I attend "Vibe Coding hackthon" held by WaytoAGI([Link](https://www.waytoagi.com/)) and give a talk on GUI-Agents and their potential in the future!
 - *2025.10.21*: &nbsp;🎉🎉 Auto-Cursor Releases!
 - *2025.10.21*: &nbsp;🎉🎉 Earth-Insights Account has started cross-posting on RedNote!
 - *2025.10.03*: &nbsp;🎉🎉 Earth-Insights WeChat Official Account's first Semi-Weekly-Report Release!
+- *2025.09.20*: &nbsp;🎉🎉 I attend Cursor Meetup Xi'an!
 - *2025.09.15*: &nbsp;🎉🎉 EarthAgent succeeds in MVP test by AI Agent 2025 Committee!
 - *2025.08.24*: &nbsp;🎉🎉 I participate in the "First National College Student Artificial Intelligence Security Competition" ([Link](https://scss.bupt.edu.cn/info/1055/6018.htm)) held at Beijing University of Posts and Telecommunications and win the first prize!
 
@@ -70,7 +72,7 @@ Kaiyu Li, Zixuan Jiang, Xiangyong Cao, **Jiayu Wang**, Yuchen Xiao, Deyu Meng, Z
 
 # 🚀 Projects (selected)
 <div markdown="1"> 
-## 🔥**Auto-Cursor** [link](https://github.com/JiayuuWang/Auto-Cursor) (Oct 2025) 
+## 🔥**Auto-Cursor** ([link](https://github.com/JiayuuWang/Auto-Cursor)) (Oct 2025) 
 Auto-Cursor is **THE FIRST** (to the best of my knowledge) GUI-native orchestration layer that pilots the Cursor IDE like a human operator. By combining large language models, visual grounding, and deterministic automation, the project explores how agents can build software without being confined to command-line tooling.
 
 
@@ -86,7 +88,7 @@ Auto-Cursor is **THE FIRST** (to the best of my knowledge) GUI-native orchestrat
 </div>
 <iframe src="https://player.bilibili.com/player.html?bvid=BV1weUvBoExk&page=1&high_quality=1&danmaku=0" width="70%" height="500" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 <div markdown="1"> 
-## 🔥**EarthAgent** [link](https://www.aiagent2025.com/projects/buq2zyaq05w2) (July 2025) 
+## 🔥**EarthAgent** ([link](https://www.aiagent2025.com/projects/buq2zyaq05w2)) (July 2025) 
 
 
 EarthAgent is a groundbreaking general AI agent for the remote sensing field, dedicated to making complex and high-threshold geospatial analysis more accessible and automated. It allows users to drive a fully automated workflow that integrates multimodal data acquisition, intelligent interpretation, and deep reasoning through simple natural language conversations. Whether with text or image inputs, EarthAgent can autonomously plan and execute tasks, reducing traditional manual analysis processes that used to take days to just minutes. It has attracted <span style="color:blue">**300+**</span> likes on RedNote. [link](https://www.xiaohongshu.com/explore/68d2b443000000001400bd21?xsec_token=YBz1lxaWzYRLK2xD2jWcZICLY7PQLbdt5qfafsk5X2LbM%3D&xsec_source=pc_creatormng)
@@ -94,7 +96,7 @@ EarthAgent is a groundbreaking general AI agent for the remote sensing field, de
 <iframe src="https://player.bilibili.com/player.html?bvid=BV1PaUvBFE7A&page=1&high_quality=1&danmaku=0" width="70%" height="500"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 <div markdown="1"> 
 ## 🔥**Earth-Insights WeChat Official Account Agent (地球洞察微信公众号)** (Oct 2025)
-This is an automated system that fetches the latest papers in the fields of remote sensing and deep learning. Through sophisticated design and arrangement, it utilizes document analysis agents and various document analysis tools to achieve fully automated analysis and summarization. Currently, it consists of two modules: the Semi-Weekly Report and the Paper Deep Dive. As of November 26, the official account has published a total of <span style="color:blue">**40+**</span> blogs, covering <span style="color:blue">**160+**</span> papers, accumulating over <span style="color:blue">**4,000**</span> reads, and attracting more than <span style="color:blue">**500**</span> followers, providing the community with convenient access to the latest information.
+This is an **automated system** that fetches the latest papers in the fields of remote sensing and deep learning. Through sophisticated design and arrangement, it utilizes document analysis agents and various document analysis tools to achieve fully automated analysis and summarization. Currently, it consists of two modules: the Semi-Weekly Report and the Paper Deep Dive. As of November 26, the official account has published a total of <span style="color:blue">**40+**</span> blogs, covering <span style="color:blue">**160+**</span> papers, accumulating over <span style="color:blue">**4,000**</span> reads, and attracting more than <span style="color:blue">**500**</span> followers, providing the community with convenient access to the latest information.
 - Semi-Weekly Report Demo: [link](https://mp.weixin.qq.com/s/iNYby5U9HvpnGki1JaaV7w)
 - Paper Deep Dive Demo: [link](https://mp.weixin.qq.com/s/6B67lV7Se1zRXL7kl1sWqw) 
 </div>
