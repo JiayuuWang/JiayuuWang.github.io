@@ -22,6 +22,7 @@ I'm a third-year Computer Science student at the College of Computer Science and
 </strong>
 
 # 🔥 News
+- *2025.11.30*: &nbsp;🎉🎉 The number of subscribers of the Account has reached 500!
 - *2025.11.22*: &nbsp;🎉🎉 GeoPlan-bench Releases!
 - *2025.11.04*: &nbsp;🎉🎉 Earth-Insights WeChat Official Account's Paper-Deep-Dive Feature Releases!
 - *2025.10.28*: &nbsp;🎉🎉 I attend "Vibe Coding hackthon" held by WaytoAGI([Link](https://www.waytoagi.com/)) and give a talk on GUI-Agents and their potential in the future!
