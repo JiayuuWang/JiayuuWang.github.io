@@ -22,6 +22,7 @@ I'm a third-year Computer Science student at the College of Computer Science and
 </strong>
 
 # 🔥 News
+- *2025.12.01*: &nbsp;🎉🎉 I get the merit award(￥1500) working with my teammates [zepeng](https://github.com/xcarl1) and [weijiang](https://github.com/Johanson-colab) in Harmony System Control Agent Competition([Link](https://developer.huaweicloud.com/competition/information/1300000181/introduction)) held by Nanjing University and Huawei!
 - *2025.11.30*: &nbsp;🎉🎉 The number of subscribers of the Account has reached 500!
 - *2025.11.22*: &nbsp;🎉🎉 GeoPlan-bench Releases!
 - *2025.11.04*: &nbsp;🎉🎉 Earth-Insights WeChat Official Account's Paper-Deep-Dive Feature Releases!
@@ -97,7 +98,7 @@ EarthAgent is a groundbreaking general AI agent for the remote sensing field, de
 <iframe src="https://player.bilibili.com/player.html?bvid=BV1PaUvBFE7A&page=1&high_quality=1&danmaku=0" width="70%" height="500"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 <div markdown="1"> 
 ## 🔥**Earth-Insights WeChat Official Account Agent (地球洞察微信公众号)** (Oct 2025)
-This is an **automated system** that fetches the latest papers in the fields of remote sensing and deep learning. Through sophisticated design and arrangement, it utilizes document analysis agents and various document analysis tools to achieve fully automated analysis and summarization. Currently, it consists of two modules: the Semi-Weekly Report and the Paper Deep Dive. As of November 26, the official account has published a total of <span style="color:blue">**40+**</span> blogs, covering <span style="color:blue">**160+**</span> papers, accumulating over <span style="color:blue">**4,000**</span> reads, and attracting more than <span style="color:blue">**500**</span> followers, providing the community with convenient access to the latest information.
+This is an **automated system** that fetches the latest papers in the fields of remote sensing and deep learning. Through sophisticated design and arrangement, it utilizes document analysis agents and various document analysis tools to achieve fully automated analysis and summarization. Currently, it consists of two modules: the Semi-Weekly Report and the Paper Deep Dive. As of December 16, the official account has published a total of <span style="color:blue">**60+**</span> blogs, covering <span style="color:blue">**240+**</span> papers, accumulating over <span style="color:blue">**4,000**</span> reads, and attracting more than <span style="color:blue">**500**</span> followers, providing the community with convenient access to the latest information.
 - Semi-Weekly Report Demo: [link](https://mp.weixin.qq.com/s/iNYby5U9HvpnGki1JaaV7w)
 - Paper Deep Dive Demo: [link](https://mp.weixin.qq.com/s/6B67lV7Se1zRXL7kl1sWqw) 
 </div>
