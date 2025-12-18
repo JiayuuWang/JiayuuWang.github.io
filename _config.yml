@@ -36,7 +36,7 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  cv               : # 简历文件的路径或外链
+  cv               : "/images/cv.pdf"
   cv_label         : "CV / Resume"
   facebook         :
   foursquare       :
