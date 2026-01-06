@@ -22,6 +22,7 @@ I'm a third-year Computer Science student at the College of Computer Science and
 </strong>
 
 # 🔥 News
+- *2025.1.5*: &nbsp;🎉🎉 I attend the semi-final competition of AI Agent 2025([Link](https://www.aiagent2025.com/)) held by ([Chinese Association for Artificial Intelligence](https://www.aiagent2025.com/))(CAAI) in Shenzhen, China!
 - *2025.12.01*: &nbsp;🎉🎉 I get the merit award(￥1500) working with my teammates [zepeng](https://github.com/xcarl1) and [weijiang](https://github.com/Johanson-colab) in Harmony System Control Agent Competition([Link](https://developer.huaweicloud.com/competition/information/1300000181/introduction)) held by Nanjing University and Huawei!
 - *2025.11.30*: &nbsp;🎉🎉 The number of subscribers of the Account has reached 500!
 - *2025.11.22*: &nbsp;🎉🎉 GeoPlan-bench Releases!
