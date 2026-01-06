@@ -100,6 +100,7 @@ EarthAgent is a groundbreaking general AI agent for the remote sensing field, de
 <div markdown="1"> 
 ## 🔥**Earth-Insights WeChat Official Account Agent (地球洞察微信公众号)** (Oct 2025)
 This is an **automated system** that fetches the latest papers in the fields of remote sensing and deep learning. Through sophisticated design and arrangement, it utilizes document analysis agents and various document analysis tools to achieve fully automated analysis and summarization. Currently, it consists of two modules: the Semi-Weekly Report and the Paper Deep Dive. As of December 16, the official account has published a total of <span style="color:blue">**60+**</span> blogs, covering <span style="color:blue">**240+**</span> papers, accumulating over <span style="color:blue">**4,000**</span> reads, and attracting more than <span style="color:blue">**500**</span> followers, providing the community with convenient access to the latest information.
+<img src='images/wechat-public-account.png' alt="sym" width="80%">
 - Semi-Weekly Report Demo: [link](https://mp.weixin.qq.com/s/iNYby5U9HvpnGki1JaaV7w)
 - Paper Deep Dive Demo: [link](https://mp.weixin.qq.com/s/6B67lV7Se1zRXL7kl1sWqw) 
 </div>
