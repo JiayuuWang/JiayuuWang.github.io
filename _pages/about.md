@@ -21,7 +21,7 @@ redirect_from:
 I'm a third-year Computer Science student at the College of Computer Science and Technology, Xi'an Jiaotong University, expected to earn my B.S. in Engineering in fall 2027. My research interests primarily focus on Large Language Model (LLM) Agents in Domain-specific Scenarios, and Autonomous Agents in Computer Use (CLI, GUI). Contact me at jiayuw794@gmail.com.
 </strong>
 
-# 🔥 News
+# News
 - *2026.01.05*: &nbsp;🎉🎉 I attend the semi-final competition of AI Agent 2025([Link](https://www.aiagent2025.com/)) held by ([Chinese Association for Artificial Intelligence](https://www.aiagent2025.com/))(CAAI) in Shenzhen, China!
 - *2025.12.01*: &nbsp;🎉🎉 I get the merit award(￥1500) working with my teammates [zepeng](https://github.com/xcarl1) and [weijiang](https://github.com/Johanson-colab) in Harmony System Control Agent Competition([Link](https://developer.huaweicloud.com/competition/information/1300000181/introduction)) held by Nanjing University and Huawei!
 - *2025.11.30*: &nbsp;🎉🎉 The number of subscribers of the Account has reached 500!
@@ -36,7 +36,7 @@ I'm a third-year Computer Science student at the College of Computer Science and
 - *2025.08.24*: &nbsp;🎉🎉 I participate in the "First National College Student Artificial Intelligence Security Competition" ([Link](https://scss.bupt.edu.cn/info/1055/6018.htm)) held at Beijing University of Posts and Telecommunications and win the first prize!
 
 
-# 📝 Publications 
+# Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 (submitted)</div><img src='images/2511.17198v1_01.png' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -73,9 +73,9 @@ Kaiyu Li, Zixuan Jiang, Xiangyong Cao, **Jiayu Wang**, Yuchen Xiao, Deyu Meng, Z
 
 <span class='anchor' id='-projects'></span>
 
-# 🚀 Projects (selected)
+# Projects (selected)
 <div markdown="1"> 
-## 🔥**Auto-Cursor** ([link](https://github.com/JiayuuWang/Auto-Cursor)) (Oct 2025) 
+## **Auto-Cursor** ([link](https://github.com/JiayuuWang/Auto-Cursor)) (Oct 2025) 
 Auto-Cursor is **THE FIRST** (to the best of my knowledge) GUI-native orchestration layer that pilots the Cursor IDE like a human operator. By combining large language models, visual grounding, and deterministic automation, the project explores how agents can build software without being confined to command-line tooling.
 
 
@@ -91,14 +91,14 @@ Auto-Cursor is **THE FIRST** (to the best of my knowledge) GUI-native orchestrat
 </div>
 <iframe src="https://player.bilibili.com/player.html?bvid=BV1weUvBoExk&page=1&high_quality=1&danmaku=0" width="70%" height="500" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 <div markdown="1"> 
-## 🔥**EarthAgent** ([link](https://www.aiagent2025.com/projects/buq2zyaq05w2)) (July 2025) 
+## **EarthAgent** ([link](https://www.aiagent2025.com/projects/buq2zyaq05w2)) (July 2025) 
 
 
 EarthAgent is a groundbreaking general AI agent for the remote sensing field, dedicated to making complex and high-threshold geospatial analysis more accessible and automated. It allows users to drive a fully automated workflow that integrates multimodal data acquisition, intelligent interpretation, and deep reasoning through simple natural language conversations. Whether with text or image inputs, EarthAgent can autonomously plan and execute tasks, reducing traditional manual analysis processes that used to take days to just minutes. It has attracted <span style="color:blue">**300+**</span> likes on RedNote. [link](https://www.xiaohongshu.com/explore/68d2b443000000001400bd21?xsec_token=YBz1lxaWzYRLK2xD2jWcZICLY7PQLbdt5qfafsk5X2LbM%3D&xsec_source=pc_creatormng)
 </div>
 <iframe src="https://player.bilibili.com/player.html?bvid=BV1PaUvBFE7A&page=1&high_quality=1&danmaku=0" width="70%" height="500"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 <div markdown="1"> 
-## 🔥**Earth-Insights WeChat Official Account Agent (地球洞察微信公众号)** (Oct 2025)
+## **Earth-Insights WeChat Official Account Agent (地球洞察微信公众号)** (Oct 2025)
 This is an **automated system** that fetches the latest papers in the fields of remote sensing and deep learning. Through sophisticated design and arrangement, it utilizes document analysis agents and various document analysis tools to achieve fully automated analysis and summarization. Currently, it consists of two modules: the Semi-Weekly Report and the Paper Deep Dive. As of December 16, the official account has published a total of <span style="color:blue">**90+**</span> blogs, covering <span style="color:blue">**350+**</span> papers, accumulating over <span style="color:blue">**6,000**</span> reads, and attracting more than <span style="color:blue">**600**</span> followers, providing the community with convenient access to the latest information.
 - Semi-Weekly Report Demo: [link](https://mp.weixin.qq.com/s/iNYby5U9HvpnGki1JaaV7w)
 - Paper Deep Dive Demo: [link](https://mp.weixin.qq.com/s/6B67lV7Se1zRXL7kl1sWqw) 
