@@ -53,6 +53,22 @@ Kaiyu Li, **Jiayu Wang**, Zhi Wang, Hui Qiao, Weizhan Zhang, Deyu Meng, Xiangyon
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026 (submitted)</div><img src='images/spd-bench.png' alt="sym" width="80%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**SPD-Faith Bench: Diagnosing and Improving Faithfulness in Chain-of-Thought for Multimodal Large Language Models**
+
+[Paper]() | [Code]() 
+
+Weijiang Lv，Yaoxuan Feng，Xiaobo Xia，**Jiayu Wang**，Yan Jing，Wenchao Chen，Bo Chen
+- We introduce SPD-Faith Bench, a diagnostic benchmark based on fine-grained image difference reasoning that enforces explicit visual comparison. 
+- Evaluations on state-of-the-art MLLMs reveal two systematic failure modes, perceptual blindness and perception-reasoning dissociation. 
+- We propose SAGE, a train-free visual evidence-calibrated framework that improves visual routing and aligns reasoning with perception. Results highlight the importance of explicitly evaluating faithfulness beyond response correctness
+
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI (submitted)</div><img src='images/2509.25654v1_01.png' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
