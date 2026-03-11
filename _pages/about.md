@@ -18,10 +18,12 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 <strong>
-I'm a third-year Computer Science student at the College of Computer Science and Technology, Xi'an Jiaotong University, expected to earn my B.S. in Engineering in fall 2027. My research interests primarily focus on Large Language Model (LLM) Agents in Domain-specific Scenarios, SWE Agents, and Autonomous Agents in Computer Use (CLI, GUI). Contact me at jiayuw794@gmail.com.
+I'm a third-year Computer Science student at the College of Computer Science and Technology, Xi'an Jiaotong University, expected to earn my B.S. in Engineering in fall 2027. My research interests primarily focus on Large Language Model Agents in Domain-specific Scenarios, SWE Agents, and Autonomous Agents in Computer Use (CLI, GUI). Contact me at jiayuw794@gmail.com.
 </strong>
 
 # News
+- *2026.03.08*: &nbsp;🎉🎉 I launch an open source rust project: nano-openfang!
+- *2026.03.07*: &nbsp;🎉🎉 dl-reproduce skill has released!
 - *2026.01.05*: &nbsp;🎉🎉 I attend the semi-final competition of AI Agent 2025([Link](https://www.aiagent2025.com/)) held by ([Chinese Association for Artificial Intelligence](https://www.aiagent2025.com/))(CAAI) in Shenzhen, China!
 - *2025.12.01*: &nbsp;🎉🎉 I get the merit award(￥1500) working with my teammates [zepeng](https://github.com/xcarl1) and [weijiang](https://github.com/Johanson-colab) in Harmony System Control Agent Competition([Link](https://developer.huaweicloud.com/competition/information/1300000181/introduction)) held by Nanjing University and Huawei!
 - *2025.11.30*: &nbsp;🎉🎉 The number of subscribers of the Account has reached 500!
@@ -40,7 +42,7 @@ I'm a third-year Computer Science student at the College of Computer Science and
 
 # Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 (submitted)</div><img src='images/2511.17198v1_01.png' alt="sym" width="80%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/2511.17198v1_01.png' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Designing Domain-Specific Agents via Hierarchical Task Abstraction Mechanism**
