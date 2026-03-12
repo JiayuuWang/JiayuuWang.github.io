@@ -4,6 +4,7 @@ title: "Building Your First GUI Agent"
 date: 2026-02-20
 categories: [Tutorial, GUI Agent]
 excerpt: "A step-by-step guide to building a GUI agent that can automate desktop applications."
+image: /assets/images/gui-agent.png
 ---
 
 # Building Your First GUI Agent

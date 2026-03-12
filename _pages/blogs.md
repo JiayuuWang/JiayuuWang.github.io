@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: default
 title: "Blogs"
 permalink: /blogs/
@@ -26,4 +26,4 @@ author_profile: false
     <p><a href="{{ post.url }}">Read more →</a></p>
   </div>
 {% endfor %}
-</div>
+</div> -->

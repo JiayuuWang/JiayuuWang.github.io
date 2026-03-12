@@ -15,7 +15,9 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<span class='anchor' id='about-me'></span>
+<span class='anchor' id='-about-me'></span>
+
+ # About Me
 
 <strong>
 I'm a third-year Computer Science student at the College of Computer Science and Technology, Xi'an Jiaotong University, expected to earn my B.S. in Engineering in fall 2027. My research interests primarily focus on Large Language Model Agents in Domain-specific Scenarios, SWE Agents, and Autonomous Agents in Computer Use (CLI, GUI). Contact me at jiayuw794@gmail.com.
@@ -145,6 +147,8 @@ This is an **automated system** that fetches the latest papers in the fields of 
   </p>
   <p class="blog-excerpt">{{ post.excerpt | strip_html | truncate: 200 }}</p>
   <p><a href="{{ post.url }}">Read more →</a></p>
-  <div class='paper-box-image'><div><img src='images/Snipaste_2026-03-12_09-33-12.png' alt="sym" width="80%"></div>
+  {% if post.image %}
+  <div class='paper-box-image'><div><img src= {{post.image}} alt="sym" width="60%"></div>
+  {% endif %}
 </div>
 {% endfor %}
