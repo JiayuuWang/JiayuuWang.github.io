@@ -21,6 +21,8 @@ redirect_from:
 I'm a third-year Computer Science student at the College of Computer Science and Technology, Xi'an Jiaotong University, expected to earn my B.S. in Engineering in fall 2027. My research interests primarily focus on Large Language Model Agents in Domain-specific Scenarios, SWE Agents, and Autonomous Agents in Computer Use (CLI, GUI). Contact me at jiayuw794@gmail.com.
 </strong>
 
+<span class='anchor' id='-news'></span>
+
 # News
 - *2026.03.08*: &nbsp;🎉🎉 I launch an open source rust project: nano-openfang!
 - *2026.03.07*: &nbsp;🎉🎉 dl-reproduce skill has released!
@@ -39,6 +41,7 @@ I'm a third-year Computer Science student at the College of Computer Science and
 - *2025.01.24*: &nbsp;🎉🎉 I attend Khalifa University Winter Youth Camp ([Link](https://www.ku.ac.ae/winter-youth-camp-2025)) in Abu Dhabi, UAE!
 
 
+<span class='anchor' id='-publications'></span>
 
 # Publications 
 
@@ -124,4 +127,23 @@ This is an **automated system** that fetches the latest papers in the fields of 
 - Paper Deep Dive Demo: [link](https://mp.weixin.qq.com/s/6B67lV7Se1zRXL7kl1sWqw) 
 </div>
 
+<span class='anchor' id='-blogs'></span>
+
 # Blogs
+
+{% for post in site.posts %}
+<div class="blog-box">
+  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+  <p class="blog-meta">
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+    {% if post.categories %}
+    • 
+    {% for category in post.categories %}
+      <span class="blog-category">{{ category }}</span>{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+    {% endif %}
+  </p>
+  <p class="blog-excerpt">{{ post.excerpt | strip_html | truncate: 200 }}</p>
+  <p><a href="{{ post.url }}">Read more →</a></p>
+</div>
+{% endfor %}
