@@ -6,27 +6,33 @@ layout: default
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <!-- <header class="post-header">
+  <header class="post-header">
+    {% if page.image %}
+    <div class="post-hero">
+      <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+    </div>
+    {% endif %}
+
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
     <p class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {{ page.date | date: "%Y-%m-%d" }}
       </time>
       {% if page.categories %}
-      • 
+      <span class="post-meta-separator">•</span>
       {% for category in page.categories %}
-        <span class="post-category">{{ category }}</span>{% unless forloop.last %}, {% endunless %}
+        <span class="post-category">{{ category }}</span>{% unless forloop.last %}<span class="post-meta-separator">,</span>{% endunless %}
       {% endfor %}
       {% endif %}
     </p>
-  </header> -->
+  </header>
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
 
+  <footer class="post-footer">
+    <a href="/" class="post-back-link">← Back to Home</a>
+  </footer>
+
 </article>
-
-<hr>
-
-<p><a href="/">← Back to Home</a></p>

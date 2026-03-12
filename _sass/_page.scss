@@ -410,3 +410,115 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+.post {
+  max-width: 800px;
+  margin: 0 auto 3em;
+  padding: 2.5em 2em;
+  background: #fff;
+  border-radius: $border-radius;
+  box-shadow: 0 12px 30px rgba(#000, 0.06);
+  border: 1px solid $border-color;
+
+  @include breakpoint($small) {
+    padding: 3em 3em;
+  }
+
+  .post-header {
+    margin-bottom: 2em;
+    text-align: center;
+  }
+
+  .post-hero {
+    margin: -2.5em -2em 2em;
+    overflow: hidden;
+    border-radius: $border-radius $border-radius 0 0;
+
+    @include breakpoint($small) {
+      margin-left: -3em;
+      margin-right: -3em;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+
+  .post-title {
+    margin: 0 0 0.75em;
+    font-size: $type-size-2;
+  }
+
+  .post-meta {
+    margin: 0;
+    font-size: $type-size-6;
+    color: mix(#fff, $gray, 25%);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  .post-meta-separator {
+    margin: 0 0.35em;
+  }
+
+  .post-category {
+    display: inline-block;
+    margin-left: 0.35em;
+    padding: 0.15em 0.6em;
+    border-radius: 999px;
+    background: mix(#fff, $primary-color, 90%);
+    color: mix(#000, $primary-color, 35%);
+    font-size: $type-size-7;
+  }
+
+  .post-content {
+    font-size: $type-size-5;
+    line-height: 1.8;
+  }
+
+  .post-content h2 {
+    margin-top: 2em;
+    font-size: $type-size-3;
+  }
+
+  .post-content h3 {
+    margin-top: 1.5em;
+    font-size: $type-size-4;
+  }
+
+  .post-footer {
+    margin-top: 2.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid $border-color;
+    padding-top: 1.5em;
+  }
+
+  .post-back-link {
+    font-size: $type-size-6;
+    text-decoration: none;
+    color: $link-color;
+    position: relative;
+    padding-bottom: 2px;
+  }
+
+  .post-back-link:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: mix(#fff, $link-color, 35%);
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: $global-transition;
+  }
+
+  .post-back-link:hover:after {
+    transform: scaleX(1);
+  }
+}
