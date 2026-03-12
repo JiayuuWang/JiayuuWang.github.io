@@ -2,7 +2,7 @@
 layout: default
 title: "Blogs"
 permalink: /blogs/
-author_profile: true
+author_profile: false
 ---
 
 <span class='anchor' id='blogs'></span>

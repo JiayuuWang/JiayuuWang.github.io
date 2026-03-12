@@ -145,5 +145,6 @@ This is an **automated system** that fetches the latest papers in the fields of 
   </p>
   <p class="blog-excerpt">{{ post.excerpt | strip_html | truncate: 200 }}</p>
   <p><a href="{{ post.url }}">Read more →</a></p>
+  <div class='paper-box-image'><div><img src='images/Snipaste_2026-03-12_09-33-12.png' alt="sym" width="80%"></div>
 </div>
 {% endfor %}
