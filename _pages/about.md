@@ -148,7 +148,7 @@ This is an **automated system** that fetches the latest papers in the fields of 
   <p class="blog-excerpt">{{ post.excerpt | strip_html | truncate: 200 }}</p>
   <p><a href="{{ post.url }}">Read more →</a></p>
   {% if post.image %}
-  <div class='paper-box-image'><img src="{{ post.image | relative_url }}" class="img-responsive" alt="sym" width="60%"></div>
+  <div class='paper-box-image'><img src="{{ post.image | relative_url }}" class="img-responsive" alt="sym" width="600" height="400"></div>
   {% endif %}
 </div>
 {% endfor %}
