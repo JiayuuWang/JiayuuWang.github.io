@@ -114,7 +114,7 @@ In 2022, Google researchers introduced Chain‑of‑Thought (CoT) prompting[1]. 
 Example:
 
 - **Without CoT**:  
-  “Xiaoming has 5 apples, Xiaohong gives him 3 more. How many apples does he have now?” → Model answers “8.”
+  John has 5 apples, Stephen gives him 3 more. How many apples does he have now?” → Model answers “8.”
 
 - **With CoT**:  
   Model writes “5 + 3 = 8, so he has 8 apples.”
