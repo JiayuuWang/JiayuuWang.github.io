@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Why I’m Still Bullish on GUI Agents in 2026Why Does Claude Code Work So Well on Non‑Coding Tasks?"
+title: "Why Does Claude Code Work So Well on Non‑Coding Tasks?"
 date: 2026-02-23
 categories: [Agent Scaffolding, Code-gen tools]
 excerpt: "Generalization of Agent Scaffolding"
