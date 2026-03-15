@@ -5,6 +5,7 @@ date: 2026-02-23
 categories: [Agent Scaffolding, Code-gen tools]
 excerpt: "Generalization of Agent Scaffolding"
 image: 'images/cc.png'
+order: 1
 ---
 
 ## Why Does Claude Code Work So Well on Non‑Coding Tasks?  

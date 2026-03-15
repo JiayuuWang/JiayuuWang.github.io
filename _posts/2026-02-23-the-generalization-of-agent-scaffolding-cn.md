@@ -5,6 +5,7 @@ date: 2026-02-23
 categories: [脚手架, 代码生成智能体]
 excerpt: "Agent 脚手架的泛化性"
 image: 'images/cc.png'
+order: 3
 ---
 
 # 为什么 Claude Code 在大量非代码任务上也能表现出色？—— 聊聊 Agent 脚手架的泛化性
