@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2026年，我为什么继续看好 GUI-Agent？"
+title: "2026年，我为什么继续看好 GUI-Agent"
 date: 2026-02-20
 categories: [计算机视觉, 智能体, 浏览器自动化]
 excerpt: "GUI-Agent的兴起，现状与未来"
