@@ -25,7 +25,7 @@ author:
   avatar           : "images/laojunshan.jpg"
   bio              : "Undergrad of Xi'an Jiaotong University"
   location         : "Xi'an, China"
-  wechat           : "/images/wechat_qr.png"
+  wechat           : "/images/wechat_qr.jpg"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=0xosaLIAAAAJ&hl=en"
@@ -63,7 +63,7 @@ author:
   links            :
   - label: "WeChat"
     icon: "fab fa-weixin"
-    url: "/images/wechat_qr.png"  # 微信二维码图片
+    url: "/images/wechat_qr.jpg"  # 微信二维码图片
 
 
 # Reading Files
