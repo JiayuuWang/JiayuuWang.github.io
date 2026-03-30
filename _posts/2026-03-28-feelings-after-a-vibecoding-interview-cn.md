@@ -4,7 +4,7 @@ title: "经历一场 vibe coding 面试后，我的所思所想"
 date: 2026-03-28
 categories: [Vibe Coding, 技术面试]
 excerpt: "一次回顾和反思"
-image: 'images/opensessions.jpg'
+image: 'images/opensessions.png'
 order: 1
 ---
 

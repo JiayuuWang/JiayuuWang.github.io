@@ -4,7 +4,7 @@ title: "After a Vibe Coding Interview: My Thoughts and Reflections"
 date: 2026-03-28
 categories: [Vibe Coding, Tech Interview]
 excerpt: "A recap and reflection"
-image: 'images/opensessions.jpg'
+image: 'images/opensessions.png'
 order: 1
 ---
 
