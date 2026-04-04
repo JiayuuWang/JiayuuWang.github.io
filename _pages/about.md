@@ -101,7 +101,7 @@ Kaiyu Li, Zixuan Jiang, Xiangyong Cao, **Jiayu Wang**, Yuchen Xiao, Deyu Meng, Z
 
 # Projects (selected)
 <div markdown="1">
-## **Contribot** ([link](https://github.com/JiayuuWang/Contribot))** (March 2026)
+## **Contribot** ([link](https://github.com/JiayuuWang/Contribot)) (March 2026)
 
 A system that automatically contributes to GitHub open-source repositories using **tons of** Claude Code as the reasoning engine. It continuously monitors your target repos, analyzes issues and codebase, then submits PRs under your own GitHub account.
 
