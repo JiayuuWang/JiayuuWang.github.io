@@ -120,14 +120,14 @@ Auto-Cursor is **THE FIRST** (to the best of my knowledge) GUI-native orchestrat
 
 
 ### Why Through GUI?
-1. **Human-parity reach**: Command-line automation is capped by the APIs that tools expose. A GUI agent, however, can click, type, drag, and navigate any surface that a human can. This dramatically widens the solution space—if a person can operate it, an agent can learn to operate it too, opening the door to automating entire product lifecycles.
-2. **Grounded perception is ready**: Domain-specific MLLMs now recognize icons, layouts, and context with far higher reliability. The bottleneck has shifted from perception to orchestration. Auto-Cursor focuses on that orchestration layer—sequencing vision, language, and action—to unlock richer, end-to-end workflows.
-3. **Standing on the shoulders of the ecosystem**: GUI-first control leverages advances in agents, LLMs, GPU-accelerated rendering, and even display hardware. We treat the modern desktop as a programmable environment, turning existing tools into improvable building blocks instead of rewriting them.
+**Human-parity reach**: Command-line automation is capped by the APIs that tools expose. A GUI agent, however, can click, type, drag, and navigate any surface that a human can. This dramatically widens the solution space—if a person can operate it, an agent can learn to operate it too, opening the door to automating entire product lifecycles.
+**Grounded perception is ready**: Domain-specific MLLMs now recognize icons, layouts, and context with far higher reliability. The bottleneck has shifted from perception to orchestration. Auto-Cursor focuses on that orchestration layer—sequencing vision, language, and action—to unlock richer, end-to-end workflows.
+**Standing on the shoulders of the ecosystem**: GUI-first control leverages advances in agents, LLMs, GPU-accelerated rendering, and even display hardware. We treat the modern desktop as a programmable environment, turning existing tools into improvable building blocks instead of rewriting them.
 
 ### Vision
-1. **Build a resilient, self-improving system** that can iterate on its own behaviors, learn from failures, and adapt to different project constraints.
-2. **Provide tangible GUI agent scenarios** that inspire new ideas for downstream industries—design, ops, education, assistive tech, and beyond.
-3. **Stimulate thinking on AI safety and software design**, showing how oversight, logging, and guardrails can coexist with highly capable automation.
+**Build a resilient, self-improving system** that can iterate on its own behaviors, learn from failures, and adapt to different project constraints.
+**Provide tangible GUI agent scenarios** that inspire new ideas for downstream industries—design, ops, education, assistive tech, and beyond.
+**Stimulate thinking on AI safety and software design**, showing how oversight, logging, and guardrails can coexist with highly capable automation.
 </div>
 <iframe src="https://player.bilibili.com/player.html?bvid=BV1weUvBoExk&page=1&high_quality=1&danmaku=0&mute=1" width="70%" height="500" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
@@ -142,8 +142,8 @@ EarthAgent is a groundbreaking general AI agent for the remote sensing field, de
 ## **Earth-Insights WeChat Official Account Agent (地球洞察微信公众号)** (Oct 2025)
 
 This is an **automated system** that fetches the latest papers in the fields of remote sensing and deep learning. Through sophisticated design and arrangement, it utilizes document analysis agents and various document analysis tools to achieve fully automated analysis and summarization. Currently, it consists of two modules: the Semi-Weekly Report and the Paper Deep Dive. As of December 16, the official account has published a total of <span style="color:blue">**100+**</span> blogs, covering <span style="color:blue">**400+**</span> papers, accumulating over <span style="color:blue">**6,000**</span> reads, and attracting more than <span style="color:blue">**700**</span> followers, providing the community with convenient access to the latest information.
-- Semi-Weekly Report Demo: [link](https://mp.weixin.qq.com/s/iNYby5U9HvpnGki1JaaV7w)
-- Paper Deep Dive Demo: [link](https://mp.weixin.qq.com/s/6B67lV7Se1zRXL7kl1sWqw) 
+Semi-Weekly Report Demo: [link](https://mp.weixin.qq.com/s/iNYby5U9HvpnGki1JaaV7w)
+Paper Deep Dive Demo: [link](https://mp.weixin.qq.com/s/6B67lV7Se1zRXL7kl1sWqw) 
 </div>
 
 <span class='anchor' id='-blogs'></span>
