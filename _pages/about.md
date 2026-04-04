@@ -121,12 +121,16 @@ Auto-Cursor is **THE FIRST** (to the best of my knowledge) GUI-native orchestrat
 
 ### Why Through GUI?
 **Human-parity reach**: Command-line automation is capped by the APIs that tools expose. A GUI agent, however, can click, type, drag, and navigate any surface that a human can. This dramatically widens the solution space—if a person can operate it, an agent can learn to operate it too, opening the door to automating entire product lifecycles.
+
 **Grounded perception is ready**: Domain-specific MLLMs now recognize icons, layouts, and context with far higher reliability. The bottleneck has shifted from perception to orchestration. Auto-Cursor focuses on that orchestration layer—sequencing vision, language, and action—to unlock richer, end-to-end workflows.
+
 **Standing on the shoulders of the ecosystem**: GUI-first control leverages advances in agents, LLMs, GPU-accelerated rendering, and even display hardware. We treat the modern desktop as a programmable environment, turning existing tools into improvable building blocks instead of rewriting them.
 
 ### Vision
 **Build a resilient, self-improving system** that can iterate on its own behaviors, learn from failures, and adapt to different project constraints.
+
 **Provide tangible GUI agent scenarios** that inspire new ideas for downstream industries—design, ops, education, assistive tech, and beyond.
+
 **Stimulate thinking on AI safety and software design**, showing how oversight, logging, and guardrails can coexist with highly capable automation.
 </div>
 <iframe src="https://player.bilibili.com/player.html?bvid=BV1weUvBoExk&page=1&high_quality=1&danmaku=0&mute=1" width="70%" height="500" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
