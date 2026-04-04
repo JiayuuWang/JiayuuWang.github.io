@@ -26,7 +26,8 @@ I'm a third-year Computer Science student at the College of Computer Science and
 <span class='anchor' id='-news'></span>
 
 # News
-- *2026.03.08*: &nbsp;🎉🎉 I launch an open source rust project: nano-openfang!
+- *2026.03.28*: &nbsp;🎉🎉 Contribot([Link](https://github.com/JiayuuWang/Contribot)) releases!
+- *2026.03.08*: &nbsp;🎉🎉 I launch an open source rust project: Antlet([Link](https://github.com/JiayuuWang/Contribot))!
 - *2026.03.07*: &nbsp;🎉🎉 dl-reproduce skill has released!
 - *2026.01.05*: &nbsp;🎉🎉 I attend the semi-final competition of AI Agent 2025([Link](https://www.aiagent2025.com/)) held by ([Chinese Association for Artificial Intelligence](https://www.aiagent2025.com/))(CAAI) in Shenzhen, China!
 - *2025.12.01*: &nbsp;🎉🎉 I get the merit award(￥1500) working with my teammates [zepeng](https://github.com/xcarl1) and [weijiang](https://github.com/Johanson-colab) in Harmony System Control Agent Competition([Link](https://developer.huaweicloud.com/competition/information/1300000181/introduction)) held by Nanjing University and Huawei!
@@ -99,8 +100,22 @@ Kaiyu Li, Zixuan Jiang, Xiangyong Cao, **Jiayu Wang**, Yuchen Xiao, Deyu Meng, Z
 <span class='anchor' id='-projects'></span>
 
 # Projects (selected)
+</div markdown="1">
+## **Contribot** ([link](https://github.com/JiayuuWang/Contribot))** (March 2026)
+
+A system that automatically contributes to GitHub open-source repositories using **tons of** Claude Code as the reasoning engine. It continuously monitors your target repos, analyzes issues and codebase, then submits PRs under your own GitHub account.
+
+Each Claude Code instance will be assigned a target repo. It will analyze this repo systematically, scan the current issues and PRs and find a gap to work on. The instance itself will test and review in local working directory, making sure the PRs are high quality and valuable.
+
+It runs **days and nights** without taking a nap. The results are not AI slops, but actually beyond my expectation. Many PRs made by Contribot are highly valuable and have been merged into the official repo.
+</div>
+
+<iframe src="https://player.bilibili.com/player.html?bvid=BV1wKDgBoE4dA&page=1&high_quality=1&danmaku=0" width="70%" height="500"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+
 <div markdown="1"> 
 ## **Auto-Cursor** ([link](https://github.com/JiayuuWang/Auto-Cursor)) (Oct 2025) 
+
 Auto-Cursor is **THE FIRST** (to the best of my knowledge) GUI-native orchestration layer that pilots the Cursor IDE like a human operator. By combining large language models, visual grounding, and deterministic automation, the project explores how agents can build software without being confined to command-line tooling.
 
 
@@ -115,6 +130,7 @@ Auto-Cursor is **THE FIRST** (to the best of my knowledge) GUI-native orchestrat
 3. **Stimulate thinking on AI safety and software design**, showing how oversight, logging, and guardrails can coexist with highly capable automation.
 </div>
 <iframe src="https://player.bilibili.com/player.html?bvid=BV1weUvBoExk&page=1&high_quality=1&danmaku=0&mute=1" width="70%" height="500" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
 <div markdown="1"> 
 ## **EarthAgent** ([link](https://www.aiagent2025.com/projects/buq2zyaq05w2)) (July 2025) 
 
@@ -124,6 +140,7 @@ EarthAgent is a groundbreaking general AI agent for the remote sensing field, de
 <iframe src="https://player.bilibili.com/player.html?bvid=BV1PaUvBFE7A&page=1&high_quality=1&danmaku=0" width="70%" height="500"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 <div markdown="1"> 
 ## **Earth-Insights WeChat Official Account Agent (地球洞察微信公众号)** (Oct 2025)
+
 This is an **automated system** that fetches the latest papers in the fields of remote sensing and deep learning. Through sophisticated design and arrangement, it utilizes document analysis agents and various document analysis tools to achieve fully automated analysis and summarization. Currently, it consists of two modules: the Semi-Weekly Report and the Paper Deep Dive. As of December 16, the official account has published a total of <span style="color:blue">**100+**</span> blogs, covering <span style="color:blue">**400+**</span> papers, accumulating over <span style="color:blue">**6,000**</span> reads, and attracting more than <span style="color:blue">**700**</span> followers, providing the community with convenient access to the latest information.
 - Semi-Weekly Report Demo: [link](https://mp.weixin.qq.com/s/iNYby5U9HvpnGki1JaaV7w)
 - Paper Deep Dive Demo: [link](https://mp.weixin.qq.com/s/6B67lV7Se1zRXL7kl1sWqw) 

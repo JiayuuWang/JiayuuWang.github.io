@@ -156,12 +156,6 @@ He also mentioned that his own setup is "surprisingly vanilla" — a CLAUDE.md f
 
 ---
 
-Looking across all these perspectives, the core disagreement comes down to one question: **what are you using vibe coding for?** For prototypes, weekend projects, and one-off scripts — almost everyone is enthusiastic. For production-critical systems — almost everyone urges caution. There's no contradiction here; tools are neither good nor bad in themselves, it all depends on how you use them.
-
-My own position sits somewhere in between: **vibe coding is a sharp knife, but a sharp knife needs a steady, accurate hand to be effective.** It can get you to your destination faster — but only if you know where you're going.
-
----
-
 **References:**
 
 [1] Andrej Karpathy's original vibe coding post and discussion (https://x.com/karpathy/status/1886192184808149383)
