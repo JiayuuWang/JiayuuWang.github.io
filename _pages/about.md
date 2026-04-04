@@ -110,7 +110,7 @@ Each Claude Code instance will be assigned a target repo. It will analyze this r
 It runs **days and nights** without taking a nap. The results are not AI slops, but actually beyond my expectation. Many PRs made by Contribot are highly valuable and have been merged into the official repo.
 </div>
 
-<iframe src="https://player.bilibili.com/player.html?bvid=BV1wKDgBoE4dA&page=1&high_quality=1&danmaku=0" width="70%" height="500"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe src="https://player.bilibili.com/player.html?bvid=BV1wKDgBoE4d&page=1&high_quality=1&danmaku=0" width="70%" height="500"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 
 <div markdown="1"> 
