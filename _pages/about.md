@@ -36,11 +36,16 @@ I'm a third-year Computer Science student at the College of Computer Science and
       Blog: <a href="https://jiayuuwang.github.io/agent%20scaffolding/code-gen%20tools/the-generalization-of-agent-scaffolding/">Why Does Claude Code Work So Well on Non‑Coding Tasks?</a>
     </td>
     <td width="10%" align="center" valign="middle"></td>
-    <td width="45%" valign="top">
-      <b>Computer Use Agent</b><br>
-      Project: <a href="https://github.com/JiayuuWang/Auto-Cursor">Auto-Cursor</a><br>
-      Blog: <a href="https://jiayuuwang.github.io/computer%20vision/agent/browser%20automation/why-am-I-still-bullish-on-gui-agent-in-2026/">Why I'm Still Bullish on GUI Agents in 2026</a>
+        <td valign="top">
+      <b>Agent-based Process Automation</b><br>
+      Project: <a href="https://github.com/JiayuuWang/Contribot">Contribot</a><br>
+      Project: <a href="https://github.com/JiayuuWang/ShipNuts">ShipNuts</a>(ongoing)<br>
+      Project: <a href="https://github.com/JiayuuWang/research-navigator">research-navigator</a>(ongoing)<br>
+      Project: Earth-Insights WeChat Official Account Agent (地球洞察微信公众号)<br>
+      Project: <a href="https://github.com/JiayuuWang/dl-reproduce">dl-reproduce</a><br>
+      Blog: <a href="https://jiayuuwang.github.io/vibe%20coding/tech%20interview/feelings-after-a-vibecoding-interview/">After a Vibe Coding Interview</a>
     </td>
+
   </tr>
   <tr>
     <td align="center" valign="middle" colspan="3">
@@ -54,14 +59,10 @@ I'm a third-year Computer Science student at the College of Computer Science and
       Project: <a href="https://www.aiagent2025.com/projects/buq2zyaq05w2">EarthAgent</a>
     </td>
     <td></td>
-    <td valign="top">
-      <b>Agent-based Process Automation</b><br>
-      Project: <a href="https://github.com/JiayuuWang/Contribot">Contribot</a><br>
-      Project: <a href="https://github.com/JiayuuWang/ShipNuts">ShipNuts</a>(ongoing)<br>
-      Project: <a href="https://github.com/JiayuuWang/research-navigator">research-navigator</a>(ongoing)<br>
-      Project: Earth-Insights WeChat Official Account Agent (地球洞察微信公众号)<br>
-      Project: <a href="https://github.com/JiayuuWang/dl-reproduce">dl-reproduce</a><br>
-      Blog: <a href="https://jiayuuwang.github.io/vibe%20coding/tech%20interview/feelings-after-a-vibecoding-interview/">After a Vibe Coding Interview</a>
+    <td width="45%" valign="top">
+      <b>Computer Use Agent</b><br>
+      Project: <a href="https://github.com/JiayuuWang/Auto-Cursor">Auto-Cursor</a><br>
+      Blog: <a href="https://jiayuuwang.github.io/computer%20vision/agent/browser%20automation/why-am-I-still-bullish-on-gui-agent-in-2026/">Why I'm Still Bullish on GUI Agents in 2026</a>
     </td>
   </tr>
 </table>
