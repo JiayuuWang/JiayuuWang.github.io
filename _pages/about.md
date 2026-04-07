@@ -26,6 +26,7 @@ I'm a third-year Computer Science student at the College of Computer Science and
 <span class='anchor' id='-news'></span>
 
 # News
+- *2026.04.06*: &nbsp;🎉🎉 "SPD-Faith Bench" have been accepted in ACL 2026([Link](https://2026.aclweb.org/))!
 - *2026.03.28*: &nbsp;🎉🎉 Contribot([Link](https://github.com/JiayuuWang/Contribot)) releases!
 - *2026.03.08*: &nbsp;🎉🎉 I launch an open source rust project: Antlet([Link](https://github.com/JiayuuWang/Contribot))!
 - *2026.03.07*: &nbsp;🎉🎉 dl-reproduce skill has released!
@@ -63,12 +64,12 @@ Kaiyu Li, **Jiayu Wang**, Zhi Wang, Hui Qiao, Weizhan Zhang, Deyu Meng, Xiangyon
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026 (submitted)</div><img src='images/spd-bench.png' alt="sym" width="80%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/spd-bench.png' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **SPD-Faith Bench: Diagnosing and Improving Faithfulness in Chain-of-Thought for Multimodal Large Language Models**
 
-[Paper]() | [Code]() 
+[Paper](https://arxiv.org/abs/2602.07833) | [Code](https://github.com/Johanson-colab/SPD-Faith-Bench) | [Data](https://github.com/Johanson-colab/SPD-Faith-Bench)
 
 Weijiang Lv，Yaoxuan Feng，Xiaobo Xia，**Jiayu Wang**，Yan Jing，Wenchao Chen，Bo Chen
 - We introduce SPD-Faith Bench, a diagnostic benchmark based on fine-grained image difference reasoning that enforces explicit visual comparison. 
