@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Why I’m Still Bullish on GUI Agents in 2026"
+title: "Why I'm Still Bullish on GUI Agents in 2026"
 date: 2026-02-20
 categories: [Computer Vision, Agent, Browser Automation]
 excerpt: "The Rise, Current Situation, and Future of GUI-Agent"

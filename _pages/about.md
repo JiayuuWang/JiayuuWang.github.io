@@ -23,6 +23,49 @@ redirect_from:
 I'm a third-year Computer Science student at the College of Computer Science and Technology, Xi'an Jiaotong University, expected to earn my B.S. in Engineering in fall 2027. My research interests primarily focus on Large Language Model Agents in Domain-specific Scenarios, SWE Agents, and Autonomous Agents in Computer Use (CLI, GUI). Contact me at jiayuw794@gmail.com.
 </strong>
 
+
+<span class='anchor' id='-roadmap'></span>
+
+# Roadmap
+<table width="100%" border="1" cellpadding="12">
+  <tr>
+    <td width="45%" valign="top">
+      <b>Efficient Agent Scaffolding & Harness</b><br>
+      Paper: <a href="https://arxiv.org/abs/2511.17198">Designing Domain-Specific Agents via Hierarchical Task Abstraction Mechanism</a>(2025.11 arxiv)<br>
+      Project: Antlet (ongoing)<br>
+      Blog: <a href="https://jiayuuwang.github.io/agent%20scaffolding/code-gen%20tools/the-generalization-of-agent-scaffolding/">Why Does Claude Code Work So Well on Non‑Coding Tasks?</a>
+    </td>
+    <td width="10%" align="center" valign="middle"></td>
+    <td width="45%" valign="top">
+      <b>Computer Use Agent</b><br>
+      Project: <a href="https://github.com/JiayuuWang/Auto-Cursor">Auto-Cursor</a><br>
+      Blog: <a href="https://jiayuuwang.github.io/computer%20vision/agent/browser%20automation/why-am-I-still-bullish-on-gui-agent-in-2026/">Why I'm Still Bullish on GUI Agents in 2026</a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="middle" colspan="3">
+      <b>Efficient Autonomous Large Language Model Agent and AI System</b>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <b>LLM agent in domain-specific application</b><br>
+      Paper: <a href="https://arxiv.org/abs/2511.17198">Designing Domain-Specific Agents via Hierarchical Task Abstraction Mechanism</a>(2025.11 arxiv)<br>
+      Project: <a href="https://www.aiagent2025.com/projects/buq2zyaq05w2">EarthAgent</a>
+    </td>
+    <td></td>
+    <td valign="top">
+      <b>Agent-based Process Automation</b><br>
+      Project: <a href="https://github.com/JiayuuWang/Contribot">Contribot</a><br>
+      Project: <a href="https://github.com/JiayuuWang/ShipNuts">ShipNuts</a>(ongoing)<br>
+      Project: <a href="https://github.com/JiayuuWang/research-navigator">research-navigator</a>(ongoing)<br>
+      Project: Earth-Insights WeChat Official Account Agent (地球洞察微信公众号)<br>
+      Project: <a href="https://github.com/JiayuuWang/dl-reproduce">dl-reproduce</a><br>
+      Blog: <a href="https://jiayuuwang.github.io/vibe%20coding/tech%20interview/feelings-after-a-vibecoding-interview/">After a Vibe Coding Interview</a>
+    </td>
+  </tr>
+</table>
+
 <span class='anchor' id='-news'></span>
 
 # News
