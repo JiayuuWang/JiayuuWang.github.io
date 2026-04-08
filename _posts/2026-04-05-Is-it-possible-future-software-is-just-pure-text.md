@@ -8,7 +8,7 @@ image: 'images/cli-anything.png'
 order: 1
 ---
 
-# Is It Possible That Future Software Is Just Pure Text?
+## Is It Possible That Future Software Is Just Pure Text?
 *Cover image source: CLI-Anything*
 
 A project called **CLI-Anything** has been making waves in both developer circles and the research community recently. It comes from Professor Chao Huang's group at the Hong Kong University of Science and Technology (HKUDS), and has been accumulating attention on GitHub rapidly — at the time of writing, it already has **29k** stars.
@@ -21,7 +21,7 @@ When you open the CLI-Anything repository (the core code lives at https://github
 
 That observation led me to a question: **Is it possible that future software is just a bunch of pure text?**
 
-## What Does CLI-Anything Actually Do?
+### What Does CLI-Anything Actually Do?
 
 Let me briefly describe the project itself.
 
@@ -31,7 +31,7 @@ CLI-Anything takes a different approach. Instead of providing a new CLI tool, it
 
 This is a forward-thinking and genuinely successful open-source project. But I won't spend too much time on the project itself here — I'm more interested in the broader pattern of software that CLI-Anything represents.
 
-## A New Software Paradigm?
+### A New Software Paradigm?
 
 The software paradigm we're used to looks like this:
 
@@ -51,7 +51,7 @@ In the traditional paradigm, the "content" of software is machine code or byteco
 
 In the new paradigm, the "content" of software is natural language. It's fundamentally written for humans, and can also be executed by an agent. This means: **for the first time, software can be simultaneously readable by both humans and machines.**
 
-## How Far Could This Go?
+### How Far Could This Go?
 
 Imagine a more extreme scenario.
 
@@ -63,7 +63,7 @@ This sounds absurd at first glance, but it actually touches on a fundamental que
 
 Software isn't the binary itself — binary is just one form of "translation." The core of software is **intent**: a set of logic describing what to do and how to do it. Binary translates that logic into a form machines can read; natural language expresses that logic in a form humans can read. If an agent is powerful enough to "understand" natural language and "execute" it, then the translation step into binary becomes unnecessary.
 
-## Real Obstacles Worth Taking Seriously
+### Real Obstacles Worth Taking Seriously
 
 There are, of course, many technical and non-technical problems that need honest treatment — we can't just talk about the vision.
 
@@ -75,7 +75,7 @@ There are, of course, many technical and non-technical problems that need honest
 
 **Standardization.** Today's CLI-Anything depends on a specific agent: Claude Code. Different agents may interpret the same text differently. If the "text as software" path is ever to be walked seriously, it will require some form of standardization around agent capabilities — or a mechanism that ensures consistent interpretation across different agents.
 
-## But the Direction Is Real
+### But the Direction Is Real
 
 Despite these obstacles, I believe the direction CLI-Anything points to is genuine, and it's already happening.
 
@@ -94,7 +94,7 @@ This bears a resemblance to the "declarative programming" philosophy of earlier 
 
 And as agent capabilities keep growing, this path will go deeper. CLI-Anything today is just "a natural-language guide for CLI tools." But the boundary won't stay there.
 
-## What I'm Really Saying
+### What I'm Really Saying
 
 I'm not predicting that binary code will disappear. The traditional software paradigm has its strengths and irreplaceable qualities, and for the foreseeable future both paradigms will coexist.
 
