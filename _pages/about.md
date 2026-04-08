@@ -37,7 +37,7 @@ I'm a third-year Computer Science student at the College of Computer Science and
     </td>
     <td width="10%" align="center" valign="middle"></td>
         <td valign="top">
-      <b>Agent-based Process Automation</b><br>
+      <b>Agent-based Process Automation & Dev Tools</b><br>
       Project: <a href="https://github.com/JiayuuWang/Contribot">Contribot</a><br>
       Project: <a href="https://github.com/JiayuuWang/ShipNuts">ShipNuts</a>(ongoing)<br>
       Project: <a href="https://github.com/JiayuuWang/research-navigator">research-navigator</a>(ongoing)<br>
