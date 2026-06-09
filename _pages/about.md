@@ -302,7 +302,7 @@ function switchBlogLang(lang) {
 A set of public MCP (Model Context Protocol) servers I built and published, available on [Dedalus Labs Marketplace](https://www.dedaluslabs.ai/marketplace) and my GitHub. Each connects an AI agent to a popular SaaS platform — detailed information can be found in the related repositories on my [GitHub](https://github.com/JiayuuWang).
 </div>
 
-<div class="contrib-grid contrib-grid--mcp">
+<!-- <div class="contrib-grid contrib-grid--mcp">
   <div class="contrib-card" title="Shopify MCP Server">
     <img src="{{ '/images/contrib/mcp-shopify.svg' | relative_url }}" alt="Shopify">
     <span class="contrib-name">Shopify</span>
@@ -327,4 +327,23 @@ A set of public MCP (Model Context Protocol) servers I built and published, avai
     <img src="{{ '/images/contrib/mcp-hubspot.svg' | relative_url }}" alt="HubSpot">
     <span class="contrib-name">HubSpot</span>
   </div>
+</div> -->
+
+<div class="contrib-grid contrib-grid--row">
+  <a class="contrib-card" href="https://github.com/microsoft/VibeVoice" title="microsoft/VibeVoice">
+    <img src="{{ '/images/contrib/oss-vibevoice.png' | relative_url }}" alt="VibeVoice">
+    <span class="contrib-name">VibeVoice</span>
+  </a>
+  <a class="contrib-card" href="https://github.com/SREGym/SREGym" title="SREGym/SREGym">
+    <img src="{{ '/images/contrib/oss-sregym.png' | relative_url }}" alt="SREGym">
+    <span class="contrib-name">SREGym</span>
+  </a>
+  <a class="contrib-card" href="https://github.com/titanwings/colleague-skill" title="titanwings/colleague-skill">
+    <img src="{{ '/images/contrib/oss-colleague-skill.png' | relative_url }}" alt="colleague-skill">
+    <span class="contrib-name">colleague-skill</span>
+  </a>
+  <a class="contrib-card" href="https://github.com/NousResearch/hermes-agent" title="NousResearch/hermes-agent">
+    <img src="{{ '/images/contrib/oss-hermes-agent.png' | relative_url }}" alt="hermes-agent">
+    <span class="contrib-name">hermes-agent</span>
+  </a>
 </div>
