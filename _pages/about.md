@@ -329,21 +329,29 @@ A set of public MCP (Model Context Protocol) servers I built and published, avai
   </div>
 </div> -->
 
-<div class="contrib-grid contrib-grid--row">
-  <a class="contrib-card" href="https://github.com/microsoft/VibeVoice" title="microsoft/VibeVoice">
-    <img src="{{ '/images/contrib/oss-vibevoice.png' | relative_url }}" alt="VibeVoice">
-    <span class="contrib-name">VibeVoice</span>
+<div class="contrib-grid contrib-grid--mcp">
+  <a class="contrib-card" href="https://github.com/shopify/shopify-mcp-server" title="Shopify MCP Server">
+    <img src="{{ '/images/contrib/mcp-shopify.svg' | relative_url }}" alt="Shopify">
+    <span class="contrib-name">Shopify</span>
   </a>
-  <a class="contrib-card" href="https://github.com/SREGym/SREGym" title="SREGym/SREGym">
-    <img src="{{ '/images/contrib/oss-sregym.png' | relative_url }}" alt="SREGym">
-    <span class="contrib-name">SREGym</span>
+  <a class="contrib-card" href="https://github.com/supabase/supabase-mcp-server" title="Supabase MCP Server">
+    <img src="{{ '/images/contrib/mcp-supabase.svg' | relative_url }}" alt="Supabase">
+    <span class="contrib-name">Supabase</span>
   </a>
-  <a class="contrib-card" href="https://github.com/titanwings/colleague-skill" title="titanwings/colleague-skill">
-    <img src="{{ '/images/contrib/oss-colleague-skill.png' | relative_url }}" alt="colleague-skill">
-    <span class="contrib-name">colleague-skill</span>
+  <a class="contrib-card" href="https://github.com/asana/asana-mcp-server" title="Asana MCP Server">
+    <img src="{{ '/images/contrib/mcp-asana.svg' | relative_url }}" alt="Asana">
+    <span class="contrib-name">Asana</span>
   </a>
-  <a class="contrib-card" href="https://github.com/NousResearch/hermes-agent" title="NousResearch/hermes-agent">
-    <img src="{{ '/images/contrib/oss-hermes-agent.png' | relative_url }}" alt="hermes-agent">
-    <span class="contrib-name">hermes-agent</span>
+  <a class="contrib-card" href="https://github.com/airtable/airtable-mcp-server" title="Airtable MCP Server">
+    <img src="{{ '/images/contrib/mcp-airtable.svg' | relative_url }}" alt="Airtable">
+    <span class="contrib-name">Airtable</span>
+  </a>
+  <a class="contrib-card" href="https://github.com/vercel/vercel-mcp-server" title="Vercel MCP Server">
+    <img src="{{ '/images/contrib/mcp-vercel.svg' | relative_url }}" alt="Vercel">
+    <span class="contrib-name">Vercel</span>
+  </a>
+  <a class="contrib-card" href="https://github.com/hubspot/hubspot-mcp-server" title="HubSpot MCP Server">
+    <img src="{{ '/images/contrib/mcp-hubspot.svg' | relative_url }}" alt="HubSpot">
+    <span class="contrib-name">HubSpot</span>
   </a>
 </div>
