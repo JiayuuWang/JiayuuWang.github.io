@@ -25,6 +25,21 @@ layout: default
       {% endfor %}
       {% endif %}
     </p>
+
+    {% if page.group %}
+      {% assign target_lang = 'zh' %}
+      {% if page.lang == 'zh' %}{% assign target_lang = 'en' %}{% endif %}
+      {% assign counterpart = site.posts | where: "group", page.group | where: "lang", target_lang | first %}
+      {% if counterpart %}
+      <p class="post-lang-switch">
+        {% if page.lang == 'zh' %}
+        <a href="{{ counterpart.url }}">Read in English →</a>
+        {% else %}
+        <a href="{{ counterpart.url }}">阅读中文版 →</a>
+        {% endif %}
+      </p>
+      {% endif %}
+    {% endif %}
   </header>
 
   <div class="post-content" itemprop="articleBody">

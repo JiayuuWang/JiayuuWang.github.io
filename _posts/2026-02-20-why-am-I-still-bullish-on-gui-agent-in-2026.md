@@ -6,6 +6,8 @@ categories: [Computer Vision, Agent, Browser Automation]
 excerpt: "The Rise, Current Situation, and Future of GUI-Agent"
 image: 'images/02-20-cover.jpg'
 order: 2
+lang: en
+group: gui-agent
 ---
 
 # Why I’m Still Bullish on GUI Agents in 2026

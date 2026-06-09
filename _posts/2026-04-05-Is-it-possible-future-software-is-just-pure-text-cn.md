@@ -6,6 +6,8 @@ categories: [软件开发, Coding Agent]
 excerpt: "纯文本软件"
 image: 'images/cli-anything.png'
 order: 1
+lang: zh
+group: pure-text-software
 ---
 
 ## 未来的软件，会不会只是一堆纯文本？

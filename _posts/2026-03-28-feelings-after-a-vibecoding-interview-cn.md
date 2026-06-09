@@ -6,6 +6,8 @@ categories: [Vibe Coding, 技术面试]
 excerpt: "一次回顾和反思"
 image: 'images/opensessions.png'
 order: 1
+lang: zh
+group: vibecoding-interview
 ---
 
 # 经历一场 vibe coding 面试后，我的所思所想

@@ -199,22 +199,74 @@ Paper Deep Dive Demo: [link](https://mp.weixin.qq.com/s/6B67lV7Se1zRXL7kl1sWqw)
 
 # Blogs
 
-{% for post in site.posts %}
+<div class="blog-lang-toggle">
+  <button type="button" class="blog-lang-btn is-active" data-lang="en" onclick="switchBlogLang('en')">English</button>
+  <button type="button" class="blog-lang-btn" data-lang="zh" onclick="switchBlogLang('zh')">中文</button>
+</div>
+
+<div class="blog-list" data-lang="en">
+{% assign en_posts = site.posts | where: "lang", "en" %}
+{% for post in en_posts %}
 <div class="blog-box">
-  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-  <p class="blog-meta">
-    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
-    {% if post.categories %}
-    • 
-    {% for category in post.categories %}
-      <span class="blog-category">{{ category }}</span>{% unless forloop.last %}, {% endunless %}
-    {% endfor %}
-    {% endif %}
-  </p>
-  <p class="blog-excerpt">{{ post.excerpt | strip_html | truncate: 200 }}</p>
-  <p><a href="{{ post.url }}">Read more →</a></p>
   {% if post.image %}
-  <div class='paper-box-image'><img src="{{ post.image | relative_url }}" class="img-responsive" alt="sym" width="600" height="400"></div>
+  <a href="{{ post.url }}" class="blog-box-image"><img src="{{ post.image | relative_url }}" alt="{{ post.title }}"></a>
   {% endif %}
+  <div class="blog-box-body">
+    <h3 class="blog-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <p class="blog-meta">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+      {% if post.categories %}
+      <span class="blog-meta-sep">•</span>
+      {% for category in post.categories %}
+        <span class="blog-category">{{ category }}</span>{% unless forloop.last %} {% endunless %}
+      {% endfor %}
+      {% endif %}
+    </p>
+    <p class="blog-excerpt">{{ post.excerpt | strip_html | truncate: 200 }}</p>
+    <a href="{{ post.url }}" class="blog-readmore">Read more →</a>
+  </div>
 </div>
 {% endfor %}
+</div>
+
+<div class="blog-list" data-lang="zh" style="display:none">
+{% assign zh_posts = site.posts | where: "lang", "zh" %}
+{% for post in zh_posts %}
+<div class="blog-box">
+  {% if post.image %}
+  <a href="{{ post.url }}" class="blog-box-image"><img src="{{ post.image | relative_url }}" alt="{{ post.title }}"></a>
+  {% endif %}
+  <div class="blog-box-body">
+    <h3 class="blog-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <p class="blog-meta">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+      {% if post.categories %}
+      <span class="blog-meta-sep">•</span>
+      {% for category in post.categories %}
+        <span class="blog-category">{{ category }}</span>{% unless forloop.last %} {% endunless %}
+      {% endfor %}
+      {% endif %}
+    </p>
+    <p class="blog-excerpt">{{ post.excerpt | strip_html | truncate: 200 }}</p>
+    <a href="{{ post.url }}" class="blog-readmore">阅读全文 →</a>
+  </div>
+</div>
+{% endfor %}
+</div>
+
+<script>
+function switchBlogLang(lang) {
+  document.querySelectorAll('.blog-list').forEach(function(list) {
+    list.style.display = (list.getAttribute('data-lang') === lang) ? '' : 'none';
+  });
+  document.querySelectorAll('.blog-lang-btn').forEach(function(btn) {
+    btn.classList.toggle('is-active', btn.getAttribute('data-lang') === lang);
+  });
+  try { localStorage.setItem('blogLang', lang); } catch (e) {}
+}
+(function() {
+  var saved = 'en';
+  try { saved = localStorage.getItem('blogLang') || 'en'; } catch (e) {}
+  switchBlogLang(saved);
+})();
+</script>

@@ -6,6 +6,8 @@ categories: [Software Development, Coding Agent]
 excerpt: "Software with Only Natural Language"
 image: 'images/cli-anything.png'
 order: 1
+lang: en
+group: pure-text-software
 ---
 
 ## Is It Possible That Future Software Is Just Pure Text?

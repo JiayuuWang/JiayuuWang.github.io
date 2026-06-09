@@ -6,6 +6,8 @@ categories: [计算机视觉, 智能体, 浏览器自动化]
 excerpt: "GUI-Agent的兴起，现状与未来"
 image: 'images/02-20-cover.jpg'
 order: 4
+lang: zh
+group: gui-agent
 ---
 
 # 2026年，我为什么继续看好 GUI-Agent？

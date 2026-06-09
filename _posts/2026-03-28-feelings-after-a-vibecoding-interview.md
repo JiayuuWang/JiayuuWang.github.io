@@ -6,6 +6,8 @@ categories: [Vibe Coding, Tech Interview]
 excerpt: "A recap and reflection"
 image: 'images/opensessions.png'
 order: 1
+lang: en
+group: vibecoding-interview
 ---
 
 # After a Vibe Coding Interview: My Thoughts and Reflections

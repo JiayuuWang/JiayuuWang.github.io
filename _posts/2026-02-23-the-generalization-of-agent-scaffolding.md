@@ -6,6 +6,8 @@ categories: [Agent Scaffolding, Code-gen tools]
 excerpt: "Generalization of Agent Scaffolding"
 image: 'images/cc.png'
 order: 1
+lang: en
+group: agent-scaffolding
 ---
 
 ## Why Does Claude Code Work So Well on Non‑Coding Tasks?  
