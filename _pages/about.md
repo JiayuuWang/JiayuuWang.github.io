@@ -32,7 +32,7 @@ I'm a third-year Computer Science student at the College of Computer Science and
     <td width="45%" valign="top">
       <b>Efficient Agent Scaffolding & Harness</b><br>
       Paper: <a href="https://arxiv.org/abs/2511.17198">Designing Domain-Specific Agents via Hierarchical Task Abstraction Mechanism</a>(2025.11 arxiv)<br>
-      Project: Antlet (ongoing)<br>
+      Project: <a href="https://github.com/JiayuuWang/Antlet-CLI">Antlet-CLI</a><br>
       Blog: <a href="https://jiayuuwang.github.io/agent%20scaffolding/code-gen%20tools/the-generalization-of-agent-scaffolding/">Why Does Claude Code Work So Well on Non‑Coding Tasks?</a>
     </td>
     <td width="10%" align="center" valign="middle"></td>
@@ -61,7 +61,7 @@ I'm a third-year Computer Science student at the College of Computer Science and
     <td></td>
     <td width="45%" valign="top">
       <b>Computer Use Agent</b><br>
-      Project: <a href="https://aarr-bench.com/"></a>AARR Series<br>
+      Project: <a href="https://aarr-bench.com/">AARR Series</a><br>
       Paper: <a href="https://arxiv.org/abs/2606.07462">Act As a Real Researcher: A Suite of Benchmarks Evaluating Frontier LLMs and Agentic Harnesses in Research Lifecycle</a>(2026.05 arxiv)<br>
       Project: <a href="https://github.com/JiayuuWang/Auto-Cursor">Auto-Cursor</a><br>
       Blog: <a href="https://jiayuuwang.github.io/computer%20vision/agent/browser%20automation/why-am-I-still-bullish-on-gui-agent-in-2026/">Why I'm Still Bullish on GUI Agents in 2026</a>
@@ -188,6 +188,15 @@ Evaluating how well LLM agents close the gap with human researchers across the f
 </div>
 
 <img src='images/aarr.png' alt="sym" width="70%">
+
+
+<div markdown="1">
+## **Antlet-CLI (on going)** ([link](https://github.com/JiayuuWang/Antlet-CLI)) (May 2026)
+
+A nano coding agent built with **Rust**, supporting memory management, and cron-triggered tasks. It has extremely fast startup speed and minimal memory footprint, and natively supports running a massive number of agent instances simultaneously. 
+</div>
+
+<iframe src="https://player.bilibili.com/player.html?bvid=BV1TwEJ6EEUR&page=1&high_quality=1&danmaku=0" width="70%" height="500"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 
 <div markdown="1">
@@ -375,27 +384,27 @@ A set of public MCP (Model Context Protocol) servers I built and published, avai
 </div> -->
 
 <div class="contrib-grid contrib-grid--mcp">
-  <a class="contrib-card" href="https://github.com/shopify/shopify-mcp-server" title="Shopify MCP Server">
+  <a class="contrib-card" href="https://www.dedaluslabs.ai/marketplace/JiayuWang(%E7%8E%8B%E5%98%89%E5%AE%87)/shopify-admin-mcp" title="Shopify MCP Server">
     <img src="{{ '/images/contrib/mcp-shopify.svg' | relative_url }}" alt="Shopify">
     <span class="contrib-name">Shopify</span>
   </a>
-  <a class="contrib-card" href="https://github.com/supabase/supabase-mcp-server" title="Supabase MCP Server">
+  <a class="contrib-card" href="https://www.dedaluslabs.ai/marketplace/JiayuWang(%E7%8E%8B%E5%98%89%E5%AE%87)/supabase-mcp" title="Supabase MCP Server">
     <img src="{{ '/images/contrib/mcp-supabase.svg' | relative_url }}" alt="Supabase">
     <span class="contrib-name">Supabase</span>
   </a>
-  <a class="contrib-card" href="https://github.com/asana/asana-mcp-server" title="Asana MCP Server">
+  <a class="contrib-card" href="https://www.dedaluslabs.ai/marketplace/JiayuWang(%E7%8E%8B%E5%98%89%E5%AE%87)/asana-mcp" title="Asana MCP Server">
     <img src="{{ '/images/contrib/mcp-asana.svg' | relative_url }}" alt="Asana">
     <span class="contrib-name">Asana</span>
   </a>
-  <a class="contrib-card" href="https://github.com/airtable/airtable-mcp-server" title="Airtable MCP Server">
+  <a class="contrib-card" href="https://www.dedaluslabs.ai/marketplace/JiayuWang(%E7%8E%8B%E5%98%89%E5%AE%87)/airtable-mcp" title="Airtable MCP Server">
     <img src="{{ '/images/contrib/mcp-airtable.svg' | relative_url }}" alt="Airtable">
     <span class="contrib-name">Airtable</span>
   </a>
-  <a class="contrib-card" href="https://github.com/vercel/vercel-mcp-server" title="Vercel MCP Server">
+  <a class="contrib-card" href="https://www.dedaluslabs.ai/marketplace/JiayuWang(%E7%8E%8B%E5%98%89%E5%AE%87)/vercel-mcp" title="Vercel MCP Server">
     <img src="{{ '/images/contrib/mcp-vercel.svg' | relative_url }}" alt="Vercel">
     <span class="contrib-name">Vercel</span>
   </a>
-  <a class="contrib-card" href="https://github.com/hubspot/hubspot-mcp-server" title="HubSpot MCP Server">
+  <a class="contrib-card" href="https://www.dedaluslabs.ai/marketplace/JiayuWang(%E7%8E%8B%E5%98%89%E5%AE%87)/hubspot-mcp" title="HubSpot MCP Server">
     <img src="{{ '/images/contrib/mcp-hubspot.svg' | relative_url }}" alt="HubSpot">
     <span class="contrib-name">HubSpot</span>
   </a>
