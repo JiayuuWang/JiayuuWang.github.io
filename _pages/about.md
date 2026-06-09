@@ -61,6 +61,8 @@ I'm a third-year Computer Science student at the College of Computer Science and
     <td></td>
     <td width="45%" valign="top">
       <b>Computer Use Agent</b><br>
+      Project: <a href="https://aarr-bench.com/"></a>AARR Series<br>
+      Paper: <a href="https://arxiv.org/abs/2606.07462">Act As a Real Researcher: A Suite of Benchmarks Evaluating Frontier LLMs and Agentic Harnesses in Research Lifecycle</a>(2026.05 arxiv)<br>
       Project: <a href="https://github.com/JiayuuWang/Auto-Cursor">Auto-Cursor</a><br>
       Blog: <a href="https://jiayuuwang.github.io/computer%20vision/agent/browser%20automation/why-am-I-still-bullish-on-gui-agent-in-2026/">Why I'm Still Bullish on GUI Agents in 2026</a>
     </td>
@@ -70,6 +72,7 @@ I'm a third-year Computer Science student at the College of Computer Science and
 <span class='anchor' id='-news'></span>
 
 # News
+- *2026.05*: &nbsp;🎉🎉 We launch AARR Series([Link](https://aarr-bench.com/)) and publish AARRI-bench([Link](https://github.com/AARR-bench/AARRI-bench))!
 - *2026.04*: &nbsp;🎉🎉 "SPD-Faith Bench" have been accepted in ACL 2026([Link](https://2026.aclweb.org/))!
 - *2026.03*: &nbsp;🎉🎉 Contribot([Link](https://github.com/JiayuuWang/Contribot)) releases!
 - *2026.03*: &nbsp;🎉🎉 I launch an open source rust project: Antlet([Link](https://github.com/JiayuuWang/Contribot))!
@@ -177,6 +180,16 @@ Kaiyu Li, Zixuan Jiang, Xiangyong Cao, **Jiayu Wang**, Yuchen Xiao, Deyu Meng, Z
 <span class='anchor' id='-projects'></span>
 
 # Projects (selected)
+
+<div markdown="1">
+## **AARR Series** ([link](https://aarr-bench.com/)) (May 2026)
+
+Evaluating how well LLM agents close the gap with human researchers across the full research lifecycle. Not just executing code — testing the cognitive gaps that still separate frontier agents from human researchers.
+</div>
+
+<img src='images/aarr.png' alt="sym" width="70%">
+
+
 <div markdown="1">
 ## **Contribot** ([link](https://github.com/JiayuuWang/Contribot)) (March 2026)
 

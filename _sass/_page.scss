@@ -697,18 +697,30 @@
 .contrib-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 0.5em;  // 从 1em 改为 0.5em，间距减半
-  margin: 1em 0 2.5em;
+  gap: 0.3em;
+  margin: 0.25em 0 0.75em;  // 非常紧凑的外间距
 
   @include breakpoint($small) {
     grid-template-columns: repeat(4, 1fr);
-    gap: 0.75em;  // 大屏幕稍微宽松一点，但仍比原来小
+    gap: 0.5em;
+    margin: 0.5em 0 1em;
+  }
+  
+  @include breakpoint($medium) {
+    gap: 0.6em;
+    margin: 0.75em 0 1.25em;
   }
 
   &.contrib-grid--mcp {
     @include breakpoint($small) {
       grid-template-columns: repeat(6, 1fr);
-      gap: 0.5em;  // MCP 项目较多，保持较小间距
+      gap: 0.4em;
+      margin: 0.5em 0 0.75em;
+    }
+    
+    @include breakpoint($medium) {
+      gap: 0.5em;
+      margin: 0.75em 0 1em;
     }
   }
 }
