@@ -70,28 +70,60 @@ I'm a third-year Computer Science student at the College of Computer Science and
 <span class='anchor' id='-news'></span>
 
 # News
-- *2026.04.06*: &nbsp;🎉🎉 "SPD-Faith Bench" have been accepted in ACL 2026([Link](https://2026.aclweb.org/))!
-- *2026.03.28*: &nbsp;🎉🎉 Contribot([Link](https://github.com/JiayuuWang/Contribot)) releases!
-- *2026.03.08*: &nbsp;🎉🎉 I launch an open source rust project: Antlet([Link](https://github.com/JiayuuWang/Contribot))!
-- *2026.03.07*: &nbsp;🎉🎉 dl-reproduce skill has released!
-- *2026.01.05*: &nbsp;🎉🎉 I attend the semi-final competition of AI Agent 2025([Link](https://www.aiagent2025.com/)) held by ([Chinese Association for Artificial Intelligence](https://www.aiagent2025.com/))(CAAI) in Shenzhen, China!
-- *2025.12.01*: &nbsp;🎉🎉 I get the merit award(￥1500) working with my teammates [zepeng](https://github.com/xcarl1) and [weijiang](https://github.com/Johanson-colab) in Harmony System Control Agent Competition([Link](https://developer.huaweicloud.com/competition/information/1300000181/introduction)) held by Nanjing University and Huawei!
-- *2025.11.30*: &nbsp;🎉🎉 The number of subscribers of the Account has reached 500!
-- *2025.11.22*: &nbsp;🎉🎉 GeoPlan-bench Releases!
-- *2025.11.04*: &nbsp;🎉🎉 Earth-Insights WeChat Official Account's Paper-Deep-Dive Feature Releases!
-- *2025.10.28*: &nbsp;🎉🎉 I attend "Vibe Coding hackthon" held by WaytoAGI([Link](https://www.waytoagi.com/)) and give a talk on GUI-Agents and their potential in the future!
-- *2025.10.21*: &nbsp;🎉🎉 Auto-Cursor Releases!
-- *2025.10.21*: &nbsp;🎉🎉 Earth-Insights Account has started cross-posting on RedNote!
-- *2025.10.03*: &nbsp;🎉🎉 Earth-Insights WeChat Official Account's first Semi-Weekly-Report Release!
-- *2025.09.20*: &nbsp;🎉🎉 I attend Cursor Meetup Xi'an!
-- *2025.09.15*: &nbsp;🎉🎉 EarthAgent succeeds in MVP test by AI Agent 2025 Committee!
-- *2025.08.24*: &nbsp;🎉🎉 I participate in the "First National College Student Artificial Intelligence Security Competition" ([Link](https://scss.bupt.edu.cn/info/1055/6018.htm)) held at Beijing University of Posts and Telecommunications and win the first prize!
-- *2025.01.24*: &nbsp;🎉🎉 I attend Khalifa University Winter Youth Camp ([Link](https://www.ku.ac.ae/winter-youth-camp-2025)) in Abu Dhabi, UAE!
+- *2026.04*: &nbsp;🎉🎉 "SPD-Faith Bench" have been accepted in ACL 2026([Link](https://2026.aclweb.org/))!
+- *2026.03*: &nbsp;🎉🎉 Contribot([Link](https://github.com/JiayuuWang/Contribot)) releases!
+- *2026.03*: &nbsp;🎉🎉 I launch an open source rust project: Antlet([Link](https://github.com/JiayuuWang/Contribot))!
+- *2026.03*: &nbsp;🎉🎉 dl-reproduce skill has released!
+- *2026.01*: &nbsp;🎉🎉 I attend the semi-final competition of AI Agent 2025([Link](https://www.aiagent2025.com/)) held by ([Chinese Association for Artificial Intelligence](https://www.aiagent2025.com/))(CAAI) in Shenzhen, China!
+- *2025.12*: &nbsp;🎉🎉 I get the merit award(￥1500) working with my teammates [zepeng](https://github.com/xcarl1) and [weijiang](https://github.com/Johanson-colab) in Harmony System Control Agent Competition([Link](https://developer.huaweicloud.com/competition/information/1300000181/introduction)) held by Nanjing University and Huawei!
+- *2025.11*: &nbsp;🎉🎉 The number of subscribers of the Account has reached 500!
+- *2025.11*: &nbsp;🎉🎉 GeoPlan-bench Releases!
+- *2025.11*: &nbsp;🎉🎉 Earth-Insights WeChat Official Account's Paper-Deep-Dive Feature Releases!
+- *2025.10*: &nbsp;🎉🎉 I attend "Vibe Coding hackthon" held by WaytoAGI([Link](https://www.waytoagi.com/)) and give a talk on GUI-Agents and their potential in the future!
+- *2025.10*: &nbsp;🎉🎉 Auto-Cursor Releases!
+- *2025.10*: &nbsp;🎉🎉 Earth-Insights Account has started cross-posting on RedNote!
+- *2025.10*: &nbsp;🎉🎉 Earth-Insights WeChat Official Account's first Semi-Weekly-Report Release!
+- *2025.09*: &nbsp;🎉🎉 I attend Cursor Meetup Xi'an!
+- *2025.09*: &nbsp;🎉🎉 EarthAgent succeeds in MVP test by AI Agent 2025 Committee!
+- *2025.08*: &nbsp;🎉🎉 I participate in the "First National College Student Artificial Intelligence Security Competition" ([Link](https://scss.bupt.edu.cn/info/1055/6018.htm)) held at Beijing University of Posts and Telecommunications and win the first prize!
+- *2025.01*: &nbsp;🎉🎉 I attend Khalifa University Winter Youth Camp ([Link](https://www.ku.ac.ae/winter-youth-camp-2025)) in Abu Dhabi, UAE!
 
 
 <span class='anchor' id='-publications'></span>
 
 # Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/aarr-paper.png' alt="sym" width="80%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Act As a Real Researcher: A Suite of Benchmarks Evaluating Frontier LLMs and Agentic Harnesses in Research Lifecycle**
+
+[Paper](https://arxiv.org/abs/2606.07462) | [Code](https://github.com/AARR-bench/AARRI-bench) | [Project](https://aarr-bench.com/)
+
+**Jiayu Wang**, Weijiang Lv, Bowen Fu, Jing Fu, Jiayi Song, Lingyu Zhang, Lanxuan Xue, Luodi Chen, Zepeng Xin, Kaiyu Li, Xiangyong Cao
+- Launch the AARR benchmark series, a novel framework for evaluating the capabilities of LLM agents in authentic research scenarios. 
+- Propose AARRI-Bench, the inaugural benchmark in this series, which comprises tasks designed to simulate real research intern activities. 
+- Conduct extensive experiments across frontier models and agentic systems, providing a comprehensive analysis of their current capabilities and limitations.
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/geofaith.png' alt="sym" width="80%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**GeoFaith: A Spatio-Temporal Dual View of Faithful Chain-of-Thought**
+
+[Paper](https://arxiv.org/abs/2605.26893)
+
+Weijiang Lv, Wentong Zhao, **Jiayu Wang**, Yuhao Wu, Jiaheng Wei, Xiaobo Xia
+- Introduce a spatio-temporal perspective on Chain-of-Thought faithfulness, characterizing reasoning via latent geometric structure and entropy dynamics. 
+- Develop a scalable bootstrapping pipeline that expands step-level faithfulness annotations from 1k to 20k examples across multiple domains, enabling large-scale process supervision. 
+- Design a faithfulness-aware reinforcement learning framework that jointly optimizes outcome correctness, process faithfulness, and trajectory consistency, achieving superior detection and generation performance while producing shorter, more interpretable reasoning chains.
+
+</div>
+</div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/2511.17198v1_01.png' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
