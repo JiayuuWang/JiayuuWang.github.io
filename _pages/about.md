@@ -408,4 +408,28 @@ A set of public MCP (Model Context Protocol) servers I built and published, avai
     <img src="{{ '/images/contrib/mcp-hubspot.svg' | relative_url }}" alt="HubSpot">
     <span class="contrib-name">HubSpot</span>
   </a>
+    <a class="contrib-card" href="https://www.dedaluslabs.ai/marketplace/JiayuWang(%E7%8E%8B%E5%98%89%E5%AE%87)/kit-mcp" title="Kit MCP Server">
+    <img src="{{ '/images/contrib/mcp-kit.svg' | relative_url }}" alt="Kit">
+    <span class="contrib-name">kit</span>
+  </a>
+  <a class="contrib-card" href="https://www.dedaluslabs.ai/marketplace/JiayuWang(%E7%8E%8B%E5%98%89%E5%AE%87)/customerio-mcp" title="Customerio MCP Server">
+    <img src="{{ '/images/contrib/mcp-customerio.svg' | relative_url }}" alt="Customerio">
+    <span class="contrib-name">Customerio</span>
+  </a>
+  <a class="contrib-card" href="https://www.dedaluslabs.ai/marketplace/JiayuWang(%E7%8E%8B%E5%98%89%E5%AE%87)/launchdarkly-mcp" title="Launchdarkly MCP Server">
+    <img src="{{ '/images/contrib/mcp-launchdarkly.svg' | relative_url }}" alt="Launchdarkly">
+    <span class="contrib-name">Launchdarkly</span>
+  </a>
+  <a class="contrib-card" href="https://www.dedaluslabs.ai/marketplace/JiayuWang(%E7%8E%8B%E5%98%89%E5%AE%87)/mixpanel-mcp" title="Mixpanel MCP Server">
+    <img src="{{ '/images/contrib/mcp-mixpanel.svg' | relative_url }}" alt="Mixpanel">
+    <span class="contrib-name">Mixpanel</span>
+  </a>
+  <a class="contrib-card" href="https://www.dedaluslabs.ai/marketplace/JiayuWang(%E7%8E%8B%E5%98%89%E5%AE%87)/posthog-mcp" title="Posthog MCP Server">
+    <img src="{{ '/images/contrib/mcp-posthog.svg' | relative_url }}" alt="Posthog">
+    <span class="contrib-name">Posthog</span>
+  </a>
+  <a class="contrib-card" href="https://www.dedaluslabs.ai/marketplace/JiayuWang(%E7%8E%8B%E5%98%89%E5%AE%87)/segment-mcp" title="Segment MCP Server">
+    <img src="{{ '/images/contrib/mcp-segment.svg' | relative_url }}" alt="Segment">
+    <span class="contrib-name">Segment</span>
+  </a>
 </div>
