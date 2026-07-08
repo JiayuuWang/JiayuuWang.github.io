@@ -20,7 +20,7 @@ redirect_from:
 # About Me
 
 <strong>
-I'm a third-year Computer Science student at the College of Computer Science and Technology, Xi'an Jiaotong University, expected to earn my B.S. in Engineering in fall 2027. My research interests primarily focus on Large Language Model Agents in Domain-specific Scenarios, SWE Agents, and Autonomous Agents in Computer Use (CLI, GUI). Contact me at jiayuw794@gmail.com.
+I'm a third-year Computer Science student at the College of Computer Science and Technology, Xi'an Jiaotong University, expected to earn my B.S. in Engineering in fall 2027. My research interests primarily focus on Large Language Model Agents in Domain-specific Scenarios, RL, and Computer Use (CLI, GUI). Contact me at jiayuw794@gmail.com.
 </strong>
 
 
@@ -41,7 +41,7 @@ I'm a third-year Computer Science student at the College of Computer Science and
       Project: <a href="https://github.com/JiayuuWang/Contribot">Contribot</a><br>
       Project: <a href="https://github.com/JiayuuWang/ShipNuts">ShipNuts</a>(ongoing)<br>
       Project: <a href="https://github.com/JiayuuWang/research-navigator">research-navigator</a>(ongoing)<br>
-      Project: Earth-Insights WeChat Official Account Agent (地球洞察微信公众号)<br>
+      Project: <a href="https://mp.weixin.qq.com/s/iNYby5U9HvpnGki1JaaV7w">Earth-Insights WeChat Official Account Agent (地球洞察微信公众号)</a><br>
       Project: <a href="https://github.com/JiayuuWang/dl-reproduce">dl-reproduce</a><br>
       Blog: <a href="https://jiayuuwang.github.io/vibe%20coding/tech%20interview/feelings-after-a-vibecoding-interview/">After a Vibe Coding Interview</a>
     </td>
@@ -96,7 +96,7 @@ I'm a third-year Computer Science student at the College of Computer Science and
 
 # Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/aarr-paper.png' alt="sym" width="80%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP Submitted</div><img src='images/aarr-paper.png' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Act As a Real Researcher: A Suite of Benchmarks Evaluating Frontier LLMs and Agentic Harnesses in Research Lifecycle**
@@ -112,7 +112,7 @@ I'm a third-year Computer Science student at the College of Computer Science and
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/geofaith.png' alt="sym" width="80%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP Submitted</div><img src='images/geofaith.png' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **GeoFaith: A Spatio-Temporal Dual View of Faithful Chain-of-Thought**
@@ -128,7 +128,7 @@ Weijiang Lv, Wentong Zhao, **Jiayu Wang**, Yuhao Wu, Jiaheng Wei, Xiaobo Xia
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/2511.17198v1_01.png' alt="sym" width="80%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TGRS Submitted</div><img src='images/2511.17198v1_01.png' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Designing Domain-Specific Agents via Hierarchical Task Abstraction Mechanism**
@@ -159,7 +159,7 @@ Weijiang Lv，Yaoxuan Feng，Xiaobo Xia，**Jiayu Wang**，Yan Jing，Wenchao Ch
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI (submitted)</div><img src='images/2509.25654v1_01.png' alt="sym" width="80%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISPRS (submitted)</div><img src='images/2509.25654v1_01.png' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **DescribeEarth: Describe Anything for Remote Sensing Images**
