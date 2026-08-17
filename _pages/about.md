@@ -182,6 +182,15 @@ Kaiyu Li, Zixuan Jiang, Xiangyong Cao, **Jiayu Wang**, Yuchen Xiao, Deyu Meng, Z
 # Projects (selected)
 
 <div markdown="1">
+## **dsh-files-panel** ([link](https://github.com/JiayuuWang/dsh-files-panel)) (Aug 2026)
+
+Tmux-styled DeepSeek Harness web GUI file panel plugin: browse and edit workspace files.
+</div>
+
+<img src='images/layout.png' alt="sym" width="70%">
+
+
+<div markdown="1">
 ## **AARR Series** ([link](https://aarr-bench.com/)) (May 2026)
 
 Evaluating how well LLM agents close the gap with human researchers across the full research lifecycle. Not just executing code — testing the cognitive gaps that still separate frontier agents from human researchers.
