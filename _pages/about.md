@@ -38,11 +38,9 @@ I'm a third-year Computer Science student at the College of Computer Science and
     <td width="10%" align="center" valign="middle"></td>
         <td valign="top">
       <b>Agent-based Process Automation & Dev Tools</b><br>
+      Project: <a href="https://github.com/JiayuuWang/dsh-files-panel">dsh-files-panel</a><br>
       Project: <a href="https://github.com/JiayuuWang/Contribot">Contribot</a><br>
-      Project: <a href="https://github.com/JiayuuWang/ShipNuts">ShipNuts</a>(ongoing)<br>
-      Project: <a href="https://github.com/JiayuuWang/research-navigator">research-navigator</a>(ongoing)<br>
       Project: <a href="https://mp.weixin.qq.com/s/iNYby5U9HvpnGki1JaaV7w">Earth-Insights WeChat Official Account Agent (地球洞察微信公众号)</a><br>
-      Project: <a href="https://github.com/JiayuuWang/dl-reproduce">dl-reproduce</a><br>
       Blog: <a href="https://jiayuuwang.github.io/vibe%20coding/tech%20interview/feelings-after-a-vibecoding-interview/">After a Vibe Coding Interview</a>
     </td>
 
@@ -341,10 +339,10 @@ function switchBlogLang(lang) {
 ## Open Source Contributions
 
 <div class="contrib-grid">
-  <a class="contrib-card" href="https://github.com/microsoft/VibeVoice" title="microsoft/VibeVoice">
+  <!-- <a class="contrib-card" href="https://github.com/microsoft/VibeVoice" title="microsoft/VibeVoice">
     <img src="{{ '/images/contrib/oss-vibevoice.png' | relative_url }}" alt="VibeVoice">
     <span class="contrib-name">VibeVoice</span>
-  </a>
+  </a> -->
   <a class="contrib-card" href="https://github.com/SREGym/SREGym" title="SREGym/SREGym">
     <img src="{{ '/images/contrib/oss-sregym.png' | relative_url }}" alt="SREGym">
     <span class="contrib-name">SREGym</span>
