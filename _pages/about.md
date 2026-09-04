@@ -70,6 +70,7 @@ I'm a third-year Computer Science student at the College of Computer Science and
 <span class='anchor' id='-news'></span>
 
 # News
+- *2026.07*: &nbsp;🎉🎉 Collaborate with amazing Johansson to finish a guide book called *the Story of Linear Algebra*([Link](https://jiayuuwang.github.io/the-story-of-linear-algebra/)). Go check it out!
 - *2026.05*: &nbsp;🎉🎉 We launch AARR Series([Link](https://aarr-bench.com/)) and publish AARRI-bench([Link](https://github.com/AARR-bench/AARRI-bench))!
 - *2026.04*: &nbsp;🎉🎉 "SPD-Faith Bench" have been accepted in ACL 2026([Link](https://2026.aclweb.org/))!
 - *2026.03*: &nbsp;🎉🎉 Contribot([Link](https://github.com/JiayuuWang/Contribot)) releases!
@@ -94,7 +95,7 @@ I'm a third-year Computer Science student at the College of Computer Science and
 
 # Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP Submitted</div><img src='images/aarr-paper.png' alt="sym" width="80%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR Submitted</div><img src='images/aarr-paper.png' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Act As a Real Researcher: A Suite of Benchmarks Evaluating Frontier LLMs and Agentic Harnesses in Research Lifecycle**
@@ -110,7 +111,7 @@ I'm a third-year Computer Science student at the College of Computer Science and
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP Submitted</div><img src='images/geofaith.png' alt="sym" width="80%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI Submitted</div><img src='images/geofaith.png' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **GeoFaith: A Spatio-Temporal Dual View of Faithful Chain-of-Thought**
@@ -343,6 +344,10 @@ function switchBlogLang(lang) {
     <img src="{{ '/images/contrib/oss-vibevoice.png' | relative_url }}" alt="VibeVoice">
     <span class="contrib-name">VibeVoice</span>
   </a> -->
+  <a class="contrib-card" href="https://github.com/ktwu01/benchmark-radar" title="ktwu01/benchmark-radar">
+    <img src="{{ '/images/contrib/oss-benchmark-radar.png' | relative_url }}" alt="benchmark-radar">
+    <span class="contrib-name">benchmark-radar</span>
+  </a>
   <a class="contrib-card" href="https://github.com/SREGym/SREGym" title="SREGym/SREGym">
     <img src="{{ '/images/contrib/oss-sregym.png' | relative_url }}" alt="SREGym">
     <span class="contrib-name">SREGym</span>
