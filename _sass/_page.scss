@@ -548,6 +548,34 @@
 }
 
 /*
+   News section on homepage
+   ========================================================================== */
+
+.news-list.is-collapsed li:nth-child(n + 6) {
+  display: none;
+}
+
+.news-toggle {
+  margin: 0 0 1.5em;
+}
+
+.news-toggle-btn {
+  padding: 0.35em 1.1em;
+  border: 1px solid $border-color;
+  border-radius: 999px;
+  background: #fff;
+  color: $gray;
+  font-size: $type-size-6;
+  cursor: pointer;
+  transition: $global-transition;
+
+  &:hover {
+    border-color: mix(#fff, $primary-color, 60%);
+    color: $link-color;
+  }
+}
+
+/*
    Blogs section on homepage
    ========================================================================== */
 

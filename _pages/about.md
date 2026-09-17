@@ -70,6 +70,8 @@ I'm a forth-year Computer Science student at the College of Computer Science and
 <span class='anchor' id='-news'></span>
 
 # News
+<div class="news-list is-collapsed" markdown="1">
+
 - *2026.07*: &nbsp;🎉🎉 Collaborate with amazing Johansson to finish a guide book called *the Story of Linear Algebra*([Link](https://jiayuuwang.github.io/the-story-of-linear-algebra/)). Go check it out!
 - *2026.05*: &nbsp;🎉🎉 We launch AARR Series([Link](https://aarr-bench.com/)) and publish AARRI-bench([Link](https://github.com/AARR-bench/AARRI-bench))!
 - *2026.04*: &nbsp;🎉🎉 "SPD-Faith Bench" have been accepted in ACL 2026([Link](https://2026.aclweb.org/))!
@@ -90,6 +92,20 @@ I'm a forth-year Computer Science student at the College of Computer Science and
 - *2025.08*: &nbsp;🎉🎉 I participate in the "First National College Student Artificial Intelligence Security Competition" ([Link](https://scss.bupt.edu.cn/info/1055/6018.htm)) held at Beijing University of Posts and Telecommunications and win the first prize!
 - *2025.01*: &nbsp;🎉🎉 I attend Khalifa University Winter Youth Camp ([Link](https://www.ku.ac.ae/winter-youth-camp-2025)) in Abu Dhabi, UAE!
 
+</div>
+
+<div class="news-toggle">
+  <button type="button" class="news-toggle-btn" id="news-toggle-btn" onclick="toggleNews()">Show more ▾</button>
+</div>
+
+<script>
+function toggleNews() {
+  var list = document.querySelector('.news-list');
+  if (!list) return;
+  var collapsed = list.classList.toggle('is-collapsed');
+  document.getElementById('news-toggle-btn').textContent = collapsed ? 'Show more ▾' : 'Show less ▴';
+}
+</script>
 
 <span class='anchor' id='-publications'></span>
 
