@@ -31,7 +31,7 @@ I'm a forth-year Computer Science student at the College of Computer Science and
   <tr>
     <td width="45%" valign="top">
       <b>Efficient Agent Scaffolding & Harness</b><br>
-      Paper: <a href="https://arxiv.org/abs/2511.17198">Designing Domain-Specific Agents via Hierarchical Task Abstraction Mechanism</a>(2025.11 arxiv)<br>
+      Paper: <a href="https://arxiv.org/abs/2511.17198">Designing Domain-Specific Agents via Hierarchical Task Abstraction Mechanism</a><br>
       Project: <a href="https://github.com/JiayuuWang/Antlet-CLI">Antlet-CLI</a><br>
       Blog: <a href="https://jiayuuwang.github.io/agent%20scaffolding/code-gen%20tools/the-generalization-of-agent-scaffolding/">Why Does Claude Code Work So Well on Non‑Coding Tasks?</a>
     </td>
@@ -40,7 +40,7 @@ I'm a forth-year Computer Science student at the College of Computer Science and
       <b>Agent-based Process Automation & Dev Tools</b><br>
       Project: <a href="https://github.com/JiayuuWang/dsh-files-panel">dsh-files-panel</a><br>
       Project: <a href="https://github.com/JiayuuWang/Contribot">Contribot</a><br>
-      Project: <a href="https://mp.weixin.qq.com/s/iNYby5U9HvpnGki1JaaV7w">Earth-Insights WeChat Official Account Agent (地球洞察微信公众号)</a><br>
+      Project: <a href="https://mp.weixin.qq.com/s/iNYby5U9HvpnGki1JaaV7w">Earth-Insights WeChat Official Account Agent</a><br>
       Blog: <a href="https://jiayuuwang.github.io/vibe%20coding/tech%20interview/feelings-after-a-vibecoding-interview/">After a Vibe Coding Interview</a>
     </td>
 
@@ -53,14 +53,14 @@ I'm a forth-year Computer Science student at the College of Computer Science and
   <tr>
     <td valign="top">
       <b>LLM agent in domain-specific application</b><br>
-      Paper: <a href="https://arxiv.org/abs/2511.17198">Designing Domain-Specific Agents via Hierarchical Task Abstraction Mechanism</a>(2025.11 arxiv)<br>
+      Paper: <a href="https://arxiv.org/abs/2511.17198">Designing Domain-Specific Agents via Hierarchical Task Abstraction Mechanism</a><br>
       Project: <a href="https://www.aiagent2025.com/projects/buq2zyaq05w2">EarthAgent</a>
     </td>
     <td></td>
     <td width="45%" valign="top">
       <b>Computer Use Agent</b><br>
       Project: <a href="https://aarr-bench.com/">AARR Series</a><br>
-      Paper: <a href="https://arxiv.org/abs/2606.07462">Act As a Real Researcher: A Suite of Benchmarks Evaluating Frontier LLMs and Agentic Harnesses in Research Lifecycle</a>(2026.05 arxiv)<br>
+      Paper: <a href="https://arxiv.org/abs/2606.07462">Act As a Real Researcher: A Suite of Benchmarks Evaluating Frontier LLMs and Agentic Harnesses in Research Lifecycle</a><br>
       Project: <a href="https://github.com/JiayuuWang/Auto-Cursor">Auto-Cursor</a><br>
       Blog: <a href="https://jiayuuwang.github.io/computer%20vision/agent/browser%20automation/why-am-I-still-bullish-on-gui-agent-in-2026/">Why I'm Still Bullish on GUI Agents in 2026</a>
     </td>
