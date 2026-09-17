@@ -123,6 +123,9 @@
           <li><a href="{{ link.url }}"><i class="{{ link.icon }}" aria-hidden="true"></i> {{ link.label }}</a></li>
         {% endfor %}
       {% endif %}
+      {% if author.cv %}
+        <li><a href="{{ author.cv }}" target="_blank" rel="noopener"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> {{ author.cv_label | default: "Curriculum Vitae" }}</a></li>
+      {% endif %}
     </ul>
       <div class="author__urls_sm">
       {% if author.uri %}
@@ -222,6 +225,9 @@
         {% for link in author.links %}
           <a href="{{ link.url }}"><i class="{{ link.icon }}" aria-hidden="true"></i></a>
         {% endfor %}
+      {% endif %}
+      {% if author.cv %}
+        <a href="{{ author.cv }}" target="_blank" rel="noopener"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i></a>
       {% endif %}
     </div>
   </div>
