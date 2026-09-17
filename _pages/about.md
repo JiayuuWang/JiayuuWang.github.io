@@ -72,6 +72,8 @@ I'm a forth-year Computer Science student at the College of Computer Science and
 # News
 <div class="news-list is-collapsed" markdown="1">
 
+- *2026.09*: &nbsp;🎉🎉 Benchmark Radar paper becomes #1 Paper of the Day([Link](https://huggingface.co/papers/2609.11115)). Thanks to all the collaborators!
+- *2026.08*: &nbsp;🎉🎉 Release dsh-files-panel([Link](https://github.com/JiayuuWang/dsh-files-panel)). Interactive terminal, workspace file browser, and tmux-style split panes for the DeepSeek Harness web GUI.
 - *2026.07*: &nbsp;🎉🎉 Collaborate with amazing Johansson to finish a guide book called *the Story of Linear Algebra*([Link](https://jiayuuwang.github.io/the-story-of-linear-algebra/)). Go check it out!
 - *2026.05*: &nbsp;🎉🎉 We launch AARR Series([Link](https://aarr-bench.com/)) and publish AARRI-bench([Link](https://github.com/AARR-bench/AARRI-bench))!
 - *2026.04*: &nbsp;🎉🎉 "SPD-Faith Bench" have been accepted in ACL 2026([Link](https://2026.aclweb.org/))!
