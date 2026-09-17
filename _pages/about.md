@@ -95,7 +95,8 @@ I'm a third-year Computer Science student at the College of Computer Science and
 
 # Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR Submitted</div><img src='images/aarr-paper.png' alt="sym" width="80%"></div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2027 Submitted</div><img src='images/aarr-paper.png' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Act As a Real Researcher: A Suite of Benchmarks Evaluating Frontier LLMs and Agentic Harnesses in Research Lifecycle**
@@ -110,8 +111,22 @@ I'm a third-year Computer Science student at the College of Computer Science and
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv, #1 Paper of the Day</div><img src='images/benchmark-radar.png' alt="sym" width="80%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI Submitted</div><img src='images/geofaith.png' alt="sym" width="80%"></div></div>
+**Benchmark Radar: A Living Database and Search Engine for AI Benchmarks and Evaluation**
+
+[Paper](https://arxiv.org/abs/2609.11115) | [Hugging Face](https://huggingface.co/papers/2609.11115) | [Project](https://benchmark-radar.org/)
+
+Koutian Wu, Junjie Zhou, Ergan Shang, **Jiayu Wang**, Pengqian Han, Junkai Wang, Wanghan Xu, Lin Shi
+- Combine daily discovery of benchmark papers, repositories, datasets, and releases with a searchable benchmark catalog, mentions in model cards and technical reports, and score histories. 
+- Daily discovery draws on 37 sources: 13 direct connectors and 24 first-party research and engineering feeds. 
+- Release the web dashboard with a benchmark leaderboard, a Pareto frontier view of score against measured use, saturation and trend views, daily feeds, downloadable evidence, a command-line interface (CLI) for offline queries, and reproducible analysis.
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2027 Submitted</div><img src='images/geofaith.png' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **GeoFaith: A Spatio-Temporal Dual View of Faithful Chain-of-Thought**
