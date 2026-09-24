@@ -191,7 +191,7 @@ Weijiang Lv，Yaoxuan Feng，Xiaobo Xia，**Jiayu Wang**，Yan Jing，Wenchao Ch
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISPRS (submitted)</div><img src='images/2509.25654v1_01.png' alt="sym" width="80%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISPRS</div><img src='images/2509.25654v1_01.png' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **DescribeEarth: Describe Anything for Remote Sensing Images**
