@@ -1,4 +1,32 @@
 <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
 
+<!-- Open external links in a new tab; keep internal navigation in the same tab -->
+<script>
+  (function () {
+    function markExternalLinks() {
+      var links = document.querySelectorAll('a[href]');
+      Array.prototype.forEach.call(links, function (link) {
+        var href = link.getAttribute('href');
+        if (!href || href.charAt(0) === '#') return;
+        var url;
+        try {
+          url = new URL(link.href, window.location.href);
+        } catch (e) {
+          return;
+        }
+        if (url.protocol !== 'http:' && url.protocol !== 'https:') return;
+        if (url.host === window.location.host) return;
+        link.setAttribute('target', '_blank');
+        link.setAttribute('rel', 'noopener noreferrer');
+      });
+    }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', markExternalLinks);
+    } else {
+      markExternalLinks();
+    }
+  })();
+</script>
+
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}
