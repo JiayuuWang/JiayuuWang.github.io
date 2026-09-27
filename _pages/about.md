@@ -55,7 +55,7 @@ I'm a forth-year Computer Science student at the College of Computer Science and
     <td valign="top">
       <b>LLM agent in domain-specific application</b><br>
       Paper: <a href="https://arxiv.org/abs/2511.17198">Designing Domain-Specific Agents via Hierarchical Task Abstraction Mechanism</a><br>
-      Project: <a href="https://www.aiagent2025.com/projects/buq2zyaq05w2">EarthAgent</a>
+      Project: <a href="https://www.aiagent2025.com/projects/buq2zyaq05w2">EarthAgent</a><br>
       Project: <a href="https://mp.weixin.qq.com/s/iNYby5U9HvpnGki1JaaV7w">Earth-Insights WeChat Official Account Agent</a><br>
     </td>
     <td></td>
