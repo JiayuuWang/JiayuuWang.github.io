@@ -567,11 +567,26 @@
   display: none;
 }
 
-.news-toggle {
+.pub-list.is-collapsed > .paper-box:nth-child(n + 4),
+.project-list.is-collapsed > .project-item:nth-child(n + 4),
+.blog-list.is-collapsed > .blog-box:nth-child(n + 4) {
+  display: none;
+}
+
+/* No stray divider above the toggle: the 3rd item ends the collapsed list,
+   and the final item ends the expanded list. */
+.pub-list.is-collapsed > .paper-box:nth-child(3),
+.pub-list > .paper-box:last-child {
+  border-bottom: 0;
+}
+
+.news-toggle,
+.section-toggle {
   margin: 0 0 1.5em;
 }
 
-.news-toggle-btn {
+.news-toggle-btn,
+.section-toggle-btn {
   padding: 0.35em 1.1em;
   border: 1px solid $border-color;
   border-radius: 999px;
@@ -584,6 +599,11 @@
   &:hover {
     border-color: mix(#fff, $primary-color, 60%);
     color: $link-color;
+  }
+
+  &:focus-visible {
+    outline: 2px solid $link-color;
+    outline-offset: 2px;
   }
 }
 

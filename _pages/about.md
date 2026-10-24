@@ -115,6 +115,7 @@ function toggleNews() {
 
 # Publications 
 
+<div class="pub-list is-collapsed" id="pub-list" markdown="1">
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2027 Submitted</div><img src='images/aarr-paper.png' alt="sym" width="80%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -210,11 +211,19 @@ Kaiyu Li, Zixuan Jiang, Xiangyong Cao, **Jiayu Wang**, Yuchen Xiao, Deyu Meng, Z
 </div>
 </div>
 
+</div>
+
+<div class="section-toggle">
+  <button type="button" class="section-toggle-btn" data-target="#pub-list" data-item=".paper-box" data-limit="3" aria-controls="pub-list" aria-expanded="false" onclick="toggleSection(this)">Show more ▾</button>
+</div>
 
 <span class='anchor' id='-projects'></span>
 
 # Projects (selected)
 
+<div class="project-list is-collapsed" id="project-list" markdown="1">
+
+<div class="project-item">
 <div markdown="1">
 ## **dsh-files-panel** ([link](https://github.com/JiayuuWang/dsh-files-panel)) (Aug 2026)
 
@@ -222,8 +231,10 @@ Tmux-styled DeepSeek Harness web GUI file panel plugin: browse and edit workspac
 </div>
 
 <img src='images/layout.png' alt="sym" width="70%">
+</div>
 
 
+<div class="project-item">
 <div markdown="1">
 ## **AARR Series** ([link](https://aarr-bench.com/)) (May 2026)
 
@@ -231,8 +242,10 @@ Evaluating how well LLM agents close the gap with human researchers across the f
 </div>
 
 <img src='images/aarr.png' alt="sym" width="70%">
+</div>
 
 
+<div class="project-item">
 <div markdown="1">
 ## **Antlet-CLI (on going)** ([link](https://github.com/JiayuuWang/Antlet-CLI)) (May 2026)
 
@@ -240,8 +253,10 @@ A nano coding agent built with **Rust**, supporting memory management, and cron-
 </div>
 
 <iframe src="https://player.bilibili.com/player.html?bvid=BV1TwEJ6EEUR&page=1&high_quality=1&danmaku=0" width="70%" height="500"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+</div>
 
 
+<div class="project-item">
 <div markdown="1">
 ## **Contribot** ([link](https://github.com/JiayuuWang/Contribot)) (March 2026)
 
@@ -253,8 +268,10 @@ It runs **days and nights** without taking a nap. The results are not AI slops, 
 </div>
 
 <iframe src="https://player.bilibili.com/player.html?bvid=BV1wKDgBoE4d&page=1&high_quality=1&danmaku=0" width="70%" height="500"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+</div>
 
 
+<div class="project-item">
 <div markdown="1"> 
 ## **Auto-Cursor** ([link](https://github.com/JiayuuWang/Auto-Cursor)) (Oct 2025) 
 
@@ -276,7 +293,9 @@ Auto-Cursor is **THE FIRST** (to the best of my knowledge) GUI-native orchestrat
 **Stimulate thinking on AI safety and software design**, showing how oversight, logging, and guardrails can coexist with highly capable automation.
 </div>
 <iframe src="https://player.bilibili.com/player.html?bvid=BV1weUvBoExk&page=1&high_quality=1&danmaku=0&mute=1" width="70%" height="500" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+</div>
 
+<div class="project-item">
 <div markdown="1"> 
 ## **EarthAgent** ([link](https://www.aiagent2025.com/projects/buq2zyaq05w2)) (July 2025) 
 
@@ -284,12 +303,21 @@ Auto-Cursor is **THE FIRST** (to the best of my knowledge) GUI-native orchestrat
 EarthAgent is a groundbreaking general AI agent for the remote sensing field, dedicated to making complex and high-threshold geospatial analysis more accessible and automated. It allows users to drive a fully automated workflow that integrates multimodal data acquisition, intelligent interpretation, and deep reasoning through simple natural language conversations. Whether with text or image inputs, EarthAgent can autonomously plan and execute tasks, reducing traditional manual analysis processes that used to take days to just minutes. It has attracted <span style="color:blue">**300+**</span> likes on RedNote. [link](https://www.xiaohongshu.com/explore/68d2b443000000001400bd21?xsec_token=YBz1lxaWzYRLK2xD2jWcZICLY7PQLbdt5qfafsk5X2LbM%3D&xsec_source=pc_creatormng)
 </div>
 <iframe src="https://player.bilibili.com/player.html?bvid=BV1PaUvBFE7A&page=1&high_quality=1&danmaku=0" width="70%" height="500"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+</div>
+<div class="project-item">
 <div markdown="1"> 
 ## **Earth-Insights WeChat Official Account Agent (地球洞察微信公众号)** (Oct 2025)
 
 This is an **automated system** that fetches the latest papers in the fields of remote sensing and deep learning. Through sophisticated design and arrangement, it utilizes document analysis agents and various document analysis tools to achieve fully automated analysis and summarization. Currently, it consists of two modules: the Semi-Weekly Report and the Paper Deep Dive. As of December 16, the official account has published a total of <span style="color:blue">**100+**</span> blogs, covering <span style="color:blue">**400+**</span> papers, accumulating over <span style="color:blue">**6,000**</span> reads, and attracting more than <span style="color:blue">**700**</span> followers, providing the community with convenient access to the latest information.
 Semi-Weekly Report Demo: [link](https://mp.weixin.qq.com/s/iNYby5U9HvpnGki1JaaV7w)
 Paper Deep Dive Demo: [link](https://mp.weixin.qq.com/s/6B67lV7Se1zRXL7kl1sWqw) 
+</div>
+</div>
+
+</div>
+
+<div class="section-toggle">
+  <button type="button" class="section-toggle-btn" data-target="#project-list" data-item=".project-item" data-limit="3" aria-controls="project-list" aria-expanded="false" onclick="toggleSection(this)">Show more ▾</button>
 </div>
 
 <span class='anchor' id='-blogs'></span>
@@ -301,7 +329,7 @@ Paper Deep Dive Demo: [link](https://mp.weixin.qq.com/s/6B67lV7Se1zRXL7kl1sWqw)
   <button type="button" class="blog-lang-btn" data-lang="zh" onclick="switchBlogLang('zh')">中文</button>
 </div>
 
-<div class="blog-list" data-lang="en">
+<div class="blog-list is-collapsed" id="blog-list-en" data-lang="en">
 {% assign en_posts = site.posts | where: "lang", "en" %}
 {% for post in en_posts %}
 <div class="blog-box">
@@ -326,7 +354,7 @@ Paper Deep Dive Demo: [link](https://mp.weixin.qq.com/s/6B67lV7Se1zRXL7kl1sWqw)
 {% endfor %}
 </div>
 
-<div class="blog-list" data-lang="zh" style="display:none">
+<div class="blog-list is-collapsed" id="blog-list-zh" data-lang="zh" style="display:none">
 {% assign zh_posts = site.posts | where: "lang", "zh" %}
 {% for post in zh_posts %}
 <div class="blog-box">
@@ -351,8 +379,53 @@ Paper Deep Dive Demo: [link](https://mp.weixin.qq.com/s/6B67lV7Se1zRXL7kl1sWqw)
 {% endfor %}
 </div>
 
+<div class="section-toggle" id="blog-toggle-wrap">
+  <button type="button" class="section-toggle-btn" id="blog-toggle-btn" aria-expanded="false" onclick="toggleBlogList()">Show more ▾</button>
+</div>
+
 <script>
+var currentBlogLang = 'en';
+
+function toggleSection(btn) {
+  var target = document.querySelector(btn.getAttribute('data-target'));
+  if (!target) return;
+  var collapsed = target.classList.toggle('is-collapsed');
+  btn.textContent = collapsed ? 'Show more ▾' : 'Show less ▴';
+  btn.setAttribute('aria-expanded', String(!collapsed));
+}
+
+function activeBlogList() {
+  return document.querySelector('.blog-list[data-lang="' + currentBlogLang + '"]');
+}
+
+function updateBlogToggle() {
+  var list = activeBlogList();
+  var wrap = document.getElementById('blog-toggle-wrap');
+  var btn = document.getElementById('blog-toggle-btn');
+  if (!list || !wrap || !btn) return;
+
+  var count = list.querySelectorAll('.blog-box').length;
+  if (count <= 3) {
+    wrap.style.display = 'none';
+    return;
+  }
+
+  wrap.style.display = '';
+  var collapsed = list.classList.contains('is-collapsed');
+  btn.textContent = collapsed ? 'Show more ▾' : 'Show less ▴';
+  btn.setAttribute('aria-expanded', String(!collapsed));
+  btn.setAttribute('aria-controls', list.id);
+}
+
+function toggleBlogList() {
+  var list = activeBlogList();
+  if (!list) return;
+  list.classList.toggle('is-collapsed');
+  updateBlogToggle();
+}
+
 function switchBlogLang(lang) {
+  currentBlogLang = lang;
   document.querySelectorAll('.blog-list').forEach(function(list) {
     list.style.display = (list.getAttribute('data-lang') === lang) ? '' : 'none';
   });
@@ -360,8 +433,20 @@ function switchBlogLang(lang) {
     btn.classList.toggle('is-active', btn.getAttribute('data-lang') === lang);
   });
   try { localStorage.setItem('blogLang', lang); } catch (e) {}
+  updateBlogToggle();
 }
+
 (function() {
+  // Hide a section's toggle when there is nothing beyond the initial limit.
+  document.querySelectorAll('.section-toggle-btn[data-target]').forEach(function(btn) {
+    var target = document.querySelector(btn.getAttribute('data-target'));
+    if (!target) { btn.parentNode.style.display = 'none'; return; }
+    var itemSelector = btn.getAttribute('data-item');
+    var limit = parseInt(btn.getAttribute('data-limit'), 10) || 3;
+    var count = itemSelector ? target.querySelectorAll(itemSelector).length : target.children.length;
+    if (count <= limit) btn.parentNode.style.display = 'none';
+  });
+
   var saved = 'en';
   try { saved = localStorage.getItem('blogLang') || 'en'; } catch (e) {}
   switchBlogLang(saved);
