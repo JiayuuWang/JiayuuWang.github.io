@@ -20,7 +20,7 @@ redirect_from:
 # About Me
 
 <strong>
-I'm a fourth-year Computer Science student at the College of Computer Science and Technology, Xi'an Jiaotong University, expected to earn my B.S. in Engineering in fall 2027. My research interests primarily focus on Large Language Model Agents in Domain-specific Scenarios, RL, and Computer Use (CLI, GUI). Contact me at jiayuw794@gmail.com.
+I'm a fourth-year Computer Science student at the College of Computer Science and Technology, Xi'an Jiaotong University, expected to earn my B.E in fall 2027. My research interests primarily focus on the training, evaluation and applicaton of Large Language Model Agents. Contact me at jiayuw794@gmail.com.
 </strong>
 
 
@@ -31,6 +31,7 @@ I'm a fourth-year Computer Science student at the College of Computer Science an
   <tr>
     <td width="45%" valign="top">
       <b>Efficient Agent Scaffolding & Harness</b><br>
+      Project: <a href="https://github.com/Johanson-colab/Archimedes">Archimedes</a><br>
       Paper: <a href="https://arxiv.org/abs/2511.17198">Designing Domain-Specific Agents via Hierarchical Task Abstraction Mechanism</a><br>
       Project: <a href="https://github.com/JiayuuWang/Antlet-CLI">Antlet-CLI</a><br>
       Blog: <a href="https://jiayuuwang.github.io/agent%20scaffolding/code-gen%20tools/the-generalization-of-agent-scaffolding/">Why Does Claude Code Work So Well on Non‑Coding Tasks?</a>
@@ -38,6 +39,7 @@ I'm a fourth-year Computer Science student at the College of Computer Science an
     <td width="10%" align="center" valign="middle"></td>
         <td valign="top">
       <b>Agent-based Process Automation & Dev Tools</b><br>
+      Project: <a href="https://github.com/Johanson-colab/Archimedes">Archimedes</a><br>
       Project: <a href="https://benchmark-radar.org/">benchmark-radar</a><br>
       Project: <a href="https://github.com/JiayuuWang/dsh-files-panel">dsh-files-panel</a><br>
       Project: <a href="https://github.com/JiayuuWang/Contribot">Contribot</a><br>
