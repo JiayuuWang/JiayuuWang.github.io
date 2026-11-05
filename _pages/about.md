@@ -221,7 +221,20 @@ Kaiyu Li, Zixuan Jiang, Xiangyong Cao, **Jiayu Wang**, Yuchen Xiao, Deyu Meng, Z
 
 <span class='anchor' id='-projects'></span>
 
-# Projects (selected)
+# Projects
+
+<div class="project-list is-collapsed" id="project-list" markdown="1">
+
+<div class="project-item">
+<div markdown="1">
+## **Archimedes (on going)** ([link](https://github.com/Johanson-colab/Archimedes)) (Oct 2026)
+
+An IDE for cs/ai researchers in AI Agent era.
+</div>
+
+<img src='images/archimedes.png' alt="sym" width="70%">
+</div>
+
 
 <div class="project-list is-collapsed" id="project-list" markdown="1">
 
