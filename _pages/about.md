@@ -236,8 +236,6 @@ An IDE for cs/ai researchers in AI Agent era.
 </div>
 
 
-<div class="project-list is-collapsed" id="project-list" markdown="1">
-
 <div class="project-item">
 <div markdown="1">
 ## **dsh-files-panel** ([link](https://github.com/JiayuuWang/dsh-files-panel)) (Aug 2026)
