@@ -579,6 +579,7 @@ A set of public MCP (Model Context Protocol) servers I built and published, avai
   </a>
 </div>
 
+<span class='anchor' id='-miscellaneous'></span>
 
 # Miscellaneous
 I'm a huge snooker fan. In my free time, I always enjoy watching tournaments. The frames I've watched many times: John Higgins vs Mark Allen in World Championship 2024 L16, deciding frame; Judd Trump vs Mark Williams in Saudi Arabia masters 2024 final, deciding frame; Judd Trump vs John Higgins in Players Championship 2026, semi final, deciding frame.
