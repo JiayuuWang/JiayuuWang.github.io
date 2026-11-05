@@ -265,7 +265,7 @@ Evaluating how well LLM agents close the gap with human researchers across the f
 A nano coding agent built with **Rust**, supporting memory management, and cron-triggered tasks. It has extremely fast startup speed and minimal memory footprint, and natively supports running a massive number of agent instances simultaneously. 
 </div>
 
-<iframe src="https://player.bilibili.com/player.html?bvid=BV1TwEJ6EEUR&page=1&high_quality=1&danmaku=0" width="70%" height="500"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe src="https://player.bilibili.com/player.html?isOutside=true&aid=116719125267068&bvid=BV1TwEJ6EEUR&cid=38981338568&p=1&high_quality=1&danmaku=0" width="70%" height="500"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 </div>
 
 
@@ -280,7 +280,7 @@ Each Claude Code instance will be assigned a target repo. It will analyze this r
 It runs **days and nights** without taking a nap. The results are not AI slops, but actually beyond my expectation. Many PRs made by Contribot are highly valuable and have been merged into the official repo.
 </div>
 
-<iframe src="https://player.bilibili.com/player.html?bvid=BV1wKDgBoE4d&page=1&high_quality=1&danmaku=0" width="70%" height="500"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe src="https://player.bilibili.com/player.html?isOutside=true&aid=116346604028545&bvid=BV1wKDgBoE4d&cid=37240702938&p=1&high_quality=1&danmaku=0" width="70%" height="500"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 </div>
 
 
@@ -305,7 +305,7 @@ Auto-Cursor is **THE FIRST** (to the best of my knowledge) GUI-native orchestrat
 
 **Stimulate thinking on AI safety and software design**, showing how oversight, logging, and guardrails can coexist with highly capable automation.
 </div>
-<iframe src="https://player.bilibili.com/player.html?bvid=BV1weUvBoExk&page=1&high_quality=1&danmaku=0&mute=1" width="70%" height="500" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe src="https://player.bilibili.com/player.html?isOutside=true&aid=115616409191832&bvid=BV1weUvBoExk&cid=34285882843&p=1&high_quality=1&danmaku=0&mute=1" width="70%" height="500" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 </div>
 
 <div class="project-item">
@@ -315,7 +315,7 @@ Auto-Cursor is **THE FIRST** (to the best of my knowledge) GUI-native orchestrat
 
 EarthAgent is a groundbreaking general AI agent for the remote sensing field, dedicated to making complex and high-threshold geospatial analysis more accessible and automated. It allows users to drive a fully automated workflow that integrates multimodal data acquisition, intelligent interpretation, and deep reasoning through simple natural language conversations. Whether with text or image inputs, EarthAgent can autonomously plan and execute tasks, reducing traditional manual analysis processes that used to take days to just minutes. It has attracted <span style="color:blue">**300+**</span> likes on RedNote. [link](https://www.xiaohongshu.com/explore/68d2b443000000001400bd21?xsec_token=YBz1lxaWzYRLK2xD2jWcZICLY7PQLbdt5qfafsk5X2LbM%3D&xsec_source=pc_creatormng)
 </div>
-<iframe src="https://player.bilibili.com/player.html?bvid=BV1PaUvBFE7A&page=1&high_quality=1&danmaku=0" width="70%" height="500"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe src="https://player.bilibili.com/player.html?isOutside=true&aid=115616375833606&bvid=BV1PaUvBFE7A&cid=34285618214&p=1&high_quality=1&danmaku=0" width="70%" height="500"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 </div>
 <div class="project-item">
 <div markdown="1"> 
