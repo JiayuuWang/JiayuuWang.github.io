@@ -8,6 +8,9 @@ image: 'images/cc.png'
 order: 3
 lang: zh
 group: agent-scaffolding
+permalink: /blogs/2/zh/
+redirect_from:
+  - "/脚手架/代码生成智能体/the-generalization-of-agent-scaffolding-cn/"
 ---
 
 # 为什么 Claude Code 在大量非代码任务上也能表现出色？—— 聊聊 Agent 脚手架的泛化性

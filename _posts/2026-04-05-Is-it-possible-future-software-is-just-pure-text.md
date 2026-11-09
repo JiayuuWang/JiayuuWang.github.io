@@ -8,6 +8,9 @@ image: 'images/cli-anything.png'
 order: 1
 lang: en
 group: pure-text-software
+permalink: /blogs/4/
+redirect_from:
+  - "/software development/coding agent/Is-it-possible-future-software-is-just-pure-text/"
 ---
 
 ## Is It Possible That Future Software Is Just Pure Text?

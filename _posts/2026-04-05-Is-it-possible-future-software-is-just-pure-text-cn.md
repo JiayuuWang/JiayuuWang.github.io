@@ -8,6 +8,9 @@ image: 'images/cli-anything.png'
 order: 1
 lang: zh
 group: pure-text-software
+permalink: /blogs/4/zh/
+redirect_from:
+  - "/软件开发/coding agent/Is-it-possible-future-software-is-just-pure-text-cn/"
 ---
 
 ## 未来的软件，会不会只是一堆纯文本？

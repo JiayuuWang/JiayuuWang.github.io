@@ -8,6 +8,9 @@ image: 'images/opensessions.png'
 order: 1
 lang: en
 group: vibecoding-interview
+permalink: /blogs/3/
+redirect_from:
+  - "/vibe coding/tech interview/feelings-after-a-vibecoding-interview/"
 ---
 
 # After a Vibe Coding Interview: My Thoughts and Reflections

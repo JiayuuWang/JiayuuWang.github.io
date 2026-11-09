@@ -8,6 +8,9 @@ image: 'images/opensessions.png'
 order: 1
 lang: zh
 group: vibecoding-interview
+permalink: /blogs/3/zh/
+redirect_from:
+  - "/vibe coding/技术面试/feelings-after-a-vibecoding-interview-cn/"
 ---
 
 # 经历一场 vibe coding 面试后，我的所思所想

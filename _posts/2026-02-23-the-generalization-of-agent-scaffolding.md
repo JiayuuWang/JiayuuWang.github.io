@@ -8,6 +8,9 @@ image: 'images/cc.png'
 order: 1
 lang: en
 group: agent-scaffolding
+permalink: /blogs/2/
+redirect_from:
+  - "/agent scaffolding/code-gen tools/the-generalization-of-agent-scaffolding/"
 ---
 
 ## Why Does Claude Code Work So Well on Non‑Coding Tasks?  

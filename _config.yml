@@ -142,7 +142,13 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+# Blog posts use explicit numeric permalinks assigned in their front matter:
+#   English: /blogs/1/, /blogs/2/, ...
+#   Chinese: /blogs/1/zh/, /blogs/2/zh/, ...
+# Numbers follow publication order (oldest first) and must stay stable:
+# when adding a post, give it the next unused number instead of renumbering.
+# This fallback only applies to posts that forget an explicit permalink.
+permalink: /blogs/:title/
 timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 

@@ -8,6 +8,9 @@ image: 'images/02-20-cover.jpg'
 order: 4
 lang: zh
 group: gui-agent
+permalink: /blogs/1/zh/
+redirect_from:
+  - "/计算机视觉/智能体/浏览器自动化/why-am-I-still-bullish-on-gui-agent-in-2026-cn/"
 ---
 
 # 2026年，我为什么继续看好 GUI-Agent？

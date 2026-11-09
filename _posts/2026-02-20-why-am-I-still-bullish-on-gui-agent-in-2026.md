@@ -8,6 +8,9 @@ image: 'images/02-20-cover.jpg'
 order: 2
 lang: en
 group: gui-agent
+permalink: /blogs/1/
+redirect_from:
+  - "/computer vision/agent/browser automation/why-am-I-still-bullish-on-gui-agent-in-2026/"
 ---
 
 # Why I’m Still Bullish on GUI Agents in 2026
