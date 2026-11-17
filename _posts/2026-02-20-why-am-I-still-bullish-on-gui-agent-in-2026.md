@@ -25,13 +25,13 @@ At the same time, by early 2026, a different sentiment has started to emerge in 
 
 So, is the GUI-agent track actually “dead”?
 
-My personal view is: **I remain structurally bullish on GUI agents — more so than ever.**
+My personal view is: **I remain structurally bullish on GUI agents, more so than ever.**
 
 This article is my attempt to explain why.
 
 ## A Short Preface
 
-CLI (Command Line Interface) and GUI (Graphical User Interface) represent two milestones in the evolution of human–computer interaction. CLI relies on typing precise text commands; it has a higher learning curve but is efficient and lightweight, and has long been the domain of professionals and early computer users. GUI, by contrast, uses windows, icons, and mouse clicks to make interaction intuitive, dramatically lowering the barrier to entry and enabling computers to reach the mass market. In short, **CLI is a “spell-casting” power tool, while GUI is the “remote control” of everyday computing** — and both still matter today.
+CLI (Command Line Interface) and GUI (Graphical User Interface) represent two milestones in the evolution of human–computer interaction. CLI relies on typing precise text commands; it has a higher learning curve but is efficient and lightweight, and has long been the domain of professionals and early computer users. GUI, by contrast, uses windows, icons, and mouse clicks to make interaction intuitive, dramatically lowering the barrier to entry and enabling computers to reach the mass market. In short, **CLI is a “spell-casting” power tool, while GUI is the “remote control” of everyday computing**, and both still matter today.
 
 [![Centralized Bash history with timestamps ](/images/cli.png)](https://www.youtube.com/watch?v=ODaHJzOyVCQ)
 *From：[Centralized Bash history with timestamps](https://www.unixtutorial.org/centralized-bash-history-with-timestamps/)*
@@ -40,7 +40,7 @@ A GUI agent is an intelligent system that can understand and operate graphical i
 
 By contrast, CLI-based agents (currently the mainstream) take another path. They rely on structured text commands and standardized program interfaces, generating precise strings (for example, shell commands) to invoke system capabilities directly.
 
-The core difference is interaction modality and adaptability. CLI agents are fast and precise, but depend on the presence of suitable command-line tools and fixed output formats. GUI agents, on the other hand, mimic human usage patterns: in principle, they can operate any software with a visual interface — including legacy systems or third‑party tools with no CLI at all — without requiring low-level integration. The trade‑off is lower execution efficiency and stronger dependence on visual models. I’ll come back to this later.
+The core difference is interaction modality and adaptability. CLI agents are fast and precise, but depend on the presence of suitable command-line tools and fixed output formats. GUI agents, on the other hand, mimic human usage patterns: in principle, they can operate any software with a visual interface, including legacy systems or third‑party tools with no CLI at all, without requiring low-level integration. The trade‑off is lower execution efficiency and stronger dependence on visual models. I’ll come back to this later.
 
 ## 2025: The Breakout Year for GUI Agents
 
@@ -54,13 +54,13 @@ Research on GUI agents in 2025 really exploded, with a wave of high‑quality be
 
 - **AndroidWorld**: A dynamic benchmarking environment built on real Android emulators, providing 116 end‑to‑end tasks across 20 real apps (contacts, calendar, browser, expense trackers, etc.). It is designed to test how robust mobile GUI agents are on real devices, especially under changes in resolution, language, and system settings.
 
-- **WorldGUI**: A 2026 benchmark that constructs a large number of “from any starting state” tasks on Windows desktop environments[3]. It deliberately places target applications in non‑default states (not launched, windows occluded, non‑default tabs, etc.) to stress‑test GUI agents’ ability to recover, re‑plan, and correct errors in dynamic environments — not just follow “happy paths” on clean, static UIs.
+- **WorldGUI**: A 2026 benchmark that constructs a large number of “from any starting state” tasks on Windows desktop environments[3]. It deliberately places target applications in non‑default states (not launched, windows occluded, non‑default tabs, etc.) to stress‑test GUI agents’ ability to recover, re‑plan, and correct errors in dynamic environments, rather than just follow “happy paths” on clean, static UIs.
 
 - **ScreenSpot‑Pro**: A benchmark targeting GUI grounding in professional, high‑resolution software (such as Photoshop and Premiere Pro), spanning 23 applications across five industries and three operating systems[4]. Early GUI grounding models topped out at 18.9% accuracy on this dataset[4]. Subsequent methods using visual search and region cropping pushed performance into the 40%+ range, and the latest RegionFocus approach has raised accuracy to 61.6% on ScreenSpot‑Pro[9]. That’s a big jump, but still far from “solved.”
 
 - **FineState‑Bench**: A benchmark dedicated to fine‑grained state control across desktop, web, and mobile environments[5]. It tasks GUI agents with operations such as precisely dragging sliders, selecting specific colors, and highlighting only a particular sentence. Experiments show that even the strongest current agents achieve only 32.8% overall accuracy on these fine‑grained interactions[5].
 
-These benchmarks share one trait: **they are hard**. Even the most advanced multimodal models today are far below human performance, which, paradoxically, is exactly what makes this space interesting — the headroom is huge.
+These benchmarks share one trait: **they are hard**. Even the most advanced multimodal models today are far below human performance, which, paradoxically, is exactly what makes this space interesting: the headroom is huge.
 
 ### Industry: Big Players Enter the Arena
 
@@ -95,7 +95,7 @@ Industry observers are also asking: **Can GUI agents ever truly land in producti
 
 Here are my reasons.
 
-### 1. GUI Truly Mirrors Human–Computer Interaction — and Breaks CLI’s Hard Limits
+### 1. GUI Truly Mirrors Human–Computer Interaction and Breaks CLI’s Hard Limits
 
 This is the most important reason I’m bullish on GUI agents.
 
@@ -103,7 +103,7 @@ CLI and API‑based approaches share a fundamental limitation: **once a system e
 
 Consider this common enterprise scenario: the core financial system runs on an internal virtual machine. Employees must first log into a Windows remote desktop, then open a decades‑old thick‑client application to approve reimbursements and export reports. There is no public API, no opportunity to inject scripts into a browser page, and you don’t even have access to the DOM. In such setups, CLI or HTTP‑level automation is almost impossible. A GUI agent, however, can operate directly inside the remote desktop, “seeing the screen → moving the mouse → clicking menus → filling forms → exporting reports,” completing the workflow just like a human.
 
-This illustrates the essence of GUI agents: **they can, in principle, do anything a human can do on a computer.** Clicks, keystrokes, dragging, scrolling, dropdowns — all of these are part of the basic action space.
+This illustrates the essence of GUI agents: **they can, in principle, do anything a human can do on a computer.** Clicks, keystrokes, dragging, scrolling, and dropdowns are all part of the basic action space.
 
 In more abstract terms, a GUI agent is a **universal interface for computer operation**. It doesn’t depend on specific APIs; it interacts directly with the graphical interface. That implies:
 
@@ -111,17 +111,17 @@ In more abstract terms, a GUI agent is a **universal interface for computer oper
 - **It can adapt to any website**: Even a personal blog or forum with no API can be automated.
 - **It can work across applications**: App and OS UI design patterns are highly similar, which allows GUI agents to generalize across apps and even across platforms more naturally than task‑specific CLI scripts.
 
-As Anthropic puts it when discussing Computer Use: “We are teaching Claude general computer skills—enabling it to use the same interfaces, applications, and workflows that humans use every day.”[6]
+As Anthropic puts it when discussing Computer Use: “We are teaching Claude general computer skills, enabling it to use the same interfaces, applications, and workflows that humans use every day.”[6]
 
 ### 2. In Some Domains, GUI Agents Offer a Strictly Better Experience
 
 GUI agents aren’t just “more general.” In certain scenarios, they actually provide **significantly better user experience**.
 
 - **Cross‑app visual workflows**  
-  Imagine the following workflow: “Open a 50‑page PDF investment report from email, extract all red‑highlighted metrics into a local Excel template to generate charts, then screenshot the charts and send them to a ‘Investment Decisions’ channel in enterprise WeChat.” This involves jumping across a mail client, PDF viewer, Excel, and a chat app — while also requiring strong visual judgment: identifying “red highlights” and checking whether the charts “look reasonable.” Implementing this purely with CLI scripts is extremely painful; a GUI agent can do it the way a human would: looking at the screen and taking actions step by step.
+  Imagine the following workflow: “Open a 50‑page PDF investment report from email, extract all red‑highlighted metrics into a local Excel template to generate charts, then screenshot the charts and send them to a ‘Investment Decisions’ channel in enterprise WeChat.” This involves jumping across a mail client, PDF viewer, Excel, and a chat app. It also requires strong visual judgment: identifying “red highlights” and checking whether the charts “look reasonable.” Implementing this purely with CLI scripts is extremely painful; a GUI agent can do it the way a human would: looking at the screen and taking actions step by step.
 
 - **Heavily visual creative/design workflows**  
-  Tools like Figma, Photoshop, and Premiere are full of fuzzy, subjective commands — “tighten the layout a bit,” “brighten the subject without overexposing,” and so on. These goals are hard to encode into fixed APIs. A GUI agent can iteratively adjust the UI — dragging, aligning, tweaking sliders — while visually comparing intermediate screenshots to converge toward what the human considers “good.”
+  Tools like Figma, Photoshop, and Premiere are full of fuzzy, subjective commands, such as “tighten the layout a bit,” “brighten the subject without overexposing,” and so on. These goals are hard to encode into fixed APIs. A GUI agent can iteratively adjust the UI by dragging, aligning, and tweaking sliders while visually comparing intermediate screenshots to converge toward what the human considers “good.”
 
 - **Workflows that require strong visual confirmation**  
   Sometimes we only trust the result once we’ve seen it. For example, when an AI bulk‑updates configuration in an admin console, we often want it to verify that “all rows turn into green checkmarks” or “a ‘Publish successful’ toast appears in the top‑right corner” before considering the task done. GUI agents can directly compare screenshots to detect these visual signals instead of relying solely on HTTP status codes.
@@ -139,7 +139,7 @@ Beyond structural advantages, the surrounding ecosystem is moving in a direction
 
 On ScreenSpot‑Pro, a particularly challenging grounding benchmark, early general multimodal models achieved only 18.9% accuracy[4]. Subsequent methods using visual search and cropping raised accuracy into the 40%+ range. RegionFocus then pushed Qwen2.5‑VL‑72B up to 61.6% on ScreenSpot‑Pro[9]. In 2026, UI‑Venus 1.5 further improved this to 69.6%[12].  
 
-Given that ScreenSpot‑Pro focuses on professional high‑resolution software — 23 applications across 5 industries and 3 operating systems — these gains are remarkable. Even humans can find many of these UIs tricky.
+Given that ScreenSpot‑Pro focuses on professional high‑resolution software (23 applications across 5 industries and 3 operating systems), these gains are remarkable. Even humans can find many of these UIs tricky.
 
 [![Li et al., "ScreenSpot-Pro: GUI Grounding for Professional High-Resolution Computer Use", 2025 ](/images/srceenshot-pro-task.png)](https://arxiv.org/html/2504.07981v1#bib)
 *This is a task example from this benchmark. Even real human can not find the answer easily！
@@ -153,7 +153,7 @@ On the agent side, open‑source models are quickly closing the gap:
 
 #### Agentic Capabilities Are Exploding
 
-2025 was also a breakout year for agent‑like capabilities more broadly. OpenAI’s o1/o3 series, Anthropic’s Claude 4 Sonnet, and Google’s Gemini 2.5 all demonstrate impressive reasoning and planning skills. For GUI agents, these abilities are critical: operating a computer isn’t just about “seeing” — it’s also about “figuring out what to do.”
+2025 was also a breakout year for agent‑like capabilities more broadly. OpenAI’s o1/o3 series, Anthropic’s Claude 4 Sonnet, and Google’s Gemini 2.5 all demonstrate impressive reasoning and planning skills. For GUI agents, these abilities are critical: operating a computer isn’t just about “seeing”; it’s also about “figuring out what to do.”
 
 #### Academic Work Is Generating Valuable Insights
 
@@ -189,9 +189,9 @@ Of course, GUI agents face serious challenges:
 
 - **Inference cost**: GUI agents repeatedly capture screenshots, analyze them, and re‑plan actions. Token usage is much higher than in pure text interaction, which is a real concern at scale.
 
-- **Security risk**: Letting an AI control your computer is inherently risky, especially through GUI control. Anthropic’s Computer Use, for example, incorporates multiple safety layers — classifiers such as ASL‑3, sandboxing, and real‑time monitoring[10].
+- **Security risk**: Letting an AI control your computer is inherently risky, especially through GUI control. Anthropic’s Computer Use, for example, incorporates multiple safety layers: classifiers such as ASL‑3, sandboxing, and real‑time monitoring[10].
 
-Personally, I see these more as **opportunities** than blockers. Every unsolved problem is a potential research direction — and a potential product opportunity.
+Personally, I see these more as **opportunities** than blockers. Every unsolved problem is a potential research direction and a potential product opportunity.
 
 ## My Experiment: Auto‑Cursor
 
@@ -202,7 +202,7 @@ At the end of 2025, I started a small demo project: [Auto‑Cursor](https://gith
 
 The motivation is straightforward: extend the usage scenarios of GUI methods by letting an agent operate the Cursor IDE itself via GUI.
 
-The idea is to **let AI autonomously operate Cursor** to achieve automated programming. You just specify a goal — for example, “turn this page’s CSS into a dark theme” — and it will analyze the code, then use Cursor’s UI to apply changes and run tests.
+The idea is to **let AI autonomously operate Cursor** to achieve automated programming. You just specify a goal, such as “turn this page’s CSS into a dark theme,” and it will analyze the code, then use Cursor’s UI to apply changes and run tests.
 
 This directly leverages the first GUI‑method advantage discussed above: breaking through API limitations. Cursor exposes plenty of powerful interfaces (such as retrieving user and team activity), but it intentionally does **not** allow scripts to control in‑app operations. GUI control is the natural way to go beyond those boundaries.
 
@@ -212,9 +212,9 @@ The project is still a rough demo with many limitations, but it already hints at
 
 From a “paper‑publishing” standpoint, GUI agents may no longer be the hottest growth area. But in the long run, I believe the upside is enormous.
 
-I’m not keen to claim that “GUI agents are the path to AGI” — the term AGI is already overused and poorly defined. What I do believe is that GUI agents will become a powerful way of working and will reshape multiple industries.
+I’m not keen to claim that “GUI agents are the path to AGI.” The term AGI is already overused and poorly defined. What I do believe is that GUI agents will become a powerful way of working and will reshape multiple industries.
 
-Just as CLI once replaced batch processing, and GUI later replaced pure CLI for mainstream users, **AI‑driven interface control** is likely to be the next paradigm shift in human–computer interaction — and GUI agents are at the forefront of that shift.
+Just as CLI once replaced batch processing, and GUI later replaced pure CLI for mainstream users, **AI‑driven interface control** is likely to be the next paradigm shift in human–computer interaction, and GUI agents are at the forefront of that shift.
 
 ---
 

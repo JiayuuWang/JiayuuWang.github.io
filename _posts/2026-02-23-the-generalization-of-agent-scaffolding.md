@@ -17,11 +17,11 @@ redirect_from:
 ### A Look at the Generalization of Agent Scaffolding
 *Cover：Claude Code Official Homepage*
 
-If you’re a developer, you’ve probably heard of Claude Code, OpenCode, or earlier systems like SWE‑Agent. These tools were originally created to solve software engineering problems — fixing bugs, writing code, running tests.  
+If you’re a developer, you’ve probably heard of Claude Code, OpenCode, or earlier systems like SWE‑Agent. These tools were originally created to solve software engineering problems such as fixing bugs, writing code, and running tests.  
 
 But there’s an interesting phenomenon: **they don’t just code**. They often perform surprisingly well on tasks that don’t look like “coding tasks” at all.
 
-For example, you can ask Claude Code to organize files on your desktop, bulk‑rename a folder of photos, or automatically fill out a form — and it usually does a decent job.
+For example, you can ask Claude Code to organize files on your desktop, bulk‑rename a folder of photos, or automatically fill out a form, and it usually does a decent job.
 
 A big part of that comes from the underlying models. But there’s another, often overlooked, factor: **agent scaffolding**.
 
@@ -32,7 +32,7 @@ This article is about that.
 Before we talk about agent scaffolding, we need to disentangle a few concepts that non‑specialists often mix up.
 
 **LLM (Large Language Model)**  
-You can think of an LLM as the “engine” or “brain” at the very bottom. Examples: GPT‑5, Claude 4.5 Sonnet, DeepSeek‑V3. You feed it a sequence of tokens (usually text), and it outputs another sequence of tokens (classical LLM outputs one token at a time) — that’s it.  
+You can think of an LLM as the “engine” or “brain” at the very bottom. Examples: GPT‑5, Claude 4.5 Sonnet, DeepSeek‑V3. You feed it a sequence of tokens (usually text), and it outputs another sequence of tokens (classical LLM outputs one token at a time). That’s it.  
 
 [![LM Arena ](/images/lmarena.png)](https://arena.ai/leaderboard)
 *A famous leaderboard for LLMs
@@ -46,7 +46,7 @@ An LLM:
 It’s a **powerful sequence generator**, not an app. It has no idea which product it’s embedded in or who is using it; it just maps input to output.
 
 **LLM Agent**  
-An LLM agent is what you get when you wrap an LLM with a “body” and “senses.” The LLM is still the brain, but you attach “hands and eyes” around it — tools for:
+An LLM agent is what you get when you wrap an LLM with a “body” and “senses.” The LLM is still the brain, but you attach “hands and eyes” around it: tools for:
 - reading and writing files,  
 - executing shell commands,  
 - calling HTTP APIs,  
@@ -63,21 +63,21 @@ Claude Code is a classic example of an LLM agent: internally it has multiple sub
 From：[terminal-bench](https://www.tbench.ai/leaderboard/terminal-bench/2.0)*
 
 **LLM Application**  
-An LLM application sits one layer above agents — it’s the **product** you actually use. It isn’t just an agent; it’s a full system that includes:
+An LLM application sits one layer above agents; it’s the **product** you actually use. It isn’t just an agent; it’s a full system that includes:
 - front‑end interfaces (web UI, desktop app, IDE plugin, mobile app),  
 - back‑end services (auth, logging, billing, permissions, org management, etc.),  
 - one or more LLMs / LLM agents as its internal engines.
 
 For example:
 - ChatGPT is an LLM‑based application. Behind the scenes it likely orchestrates multiple models, multiple agents, and multiple tool systems, but the user only sees a single product.  
-- The AI coding tool you’re using inside your IDE is also an LLM application — it just happens to live inside your editor.
+- The AI coding tool you’re using inside your IDE is also an LLM application; it just happens to live inside your editor.
 
 In other words:
 - **“LLM”** is the chip,  
 - **“LLM agent”** is the machine built around that chip,  
 - **“LLM application”** is taking that machine, packaging it into a product, and putting it in users’ hands.
 
-**Company , Model Provider and Product**  
+**Company, Model Provider, and Product**  
 Another common confusion is between company names, model names, and product names:
 
 - Anthropic is a company.  
@@ -136,7 +136,7 @@ But CoT still only addresses **thinking**, not **doing**. The model can reason i
 
 ### 3. ReAct: Reasoning + Acting
 
-In 2022, Yao et al. published the ReAct paper[2], with a key insight: **it’s not enough for the model to think — it also has to act.**
+In 2022, Yao et al. published the ReAct paper[2], with a key insight: **it’s not enough for the model to think; it also has to act.**
 
 ReAct’s core loop is “Thought → Action → Observation”:
 1. **Thought**: Analyze the situation and plan the next step.  
@@ -177,7 +177,7 @@ By 2024–2025, **terminal‑native agents** became a major trend.
 
 - **OpenCode** is another notable project. As an open‑source coding agent, it has amassed well over 100K GitHub stars and is used by millions of developers[6]. Its core idea is **“provider‑agnostic”**: it supports 70+ model providers, including Claude, GPT, Gemini, and many local models[6].
 
-These systems are no longer just “good prompts” — they are full scaffolds for autonomous coding agents.
+These systems are no longer just “good prompts”; they are full scaffolds for autonomous coding agents.
 
 ## How Claude Code‑Style Agents Actually Work
 
@@ -222,7 +222,7 @@ This is why one Morph analyst could say: “We tested 15 AI coding agents and fo
 ## Why Does Agent Scaffolding Generalize So Well?
 
 Looking at the workflow above, you might think: “That’s it? It’s not that fancy.”  
-And you’d be right — there are no magical tricks, just a clean design.
+And you’d be right: there are no magical tricks, just a clean design.
 
 So here’s the core question of this article:  
 **Why do scaffolds designed for coding tasks perform so well on many non‑coding tasks?**
@@ -287,7 +287,7 @@ You ask the agent to sort your desktop files into folders based on file type. Th
 
 In other words, the task is:  
 **“read directory → compute grouping rules → move/rename files.”**  
-The agent’s job is to understand your natural‑language request and then write and execute that script — instead of dragging icons one by one.
+The agent’s job is to understand your natural‑language request and then write and execute that script instead of dragging icons one by one.
 
 **Example 2: Bulk‑Renaming Photos**
 
@@ -327,7 +327,7 @@ You ask the agent to “clean up” a dirty CSV file. It sounds like data analys
 The output is a cleaned CSV plus a reusable cleaning script.
 
 The pattern should be clear: **code is the native language of automation**.  
-File operations, data processing, network requests, system admin — all can be expressed as code.
+File operations, data processing, network requests, and system admin can all be expressed as code.
 
 So when you see an agent doing something that “doesn’t look like coding,” chances are that under the hood it’s quietly writing and running scripts.
 
@@ -381,12 +381,12 @@ Back to the original question: why does Claude Code perform so well on many non�
 
 By now, the answer should be clear:
 
-1. **ReAct is a general reasoning‑and‑acting framework** — it applies far beyond coding.  
+1. **ReAct is a general reasoning‑and‑acting framework** that applies far beyond coding.  
 2. **Rich tool ecosystems like MCP and Skills** allow agents to reach into nearly any system.  
 3. **Many “non‑coding” tasks can be reframed as coding problems**, then solved via scripts.  
 4. **Stronger base models** make the same scaffolds dramatically more capable.
 
-So the next time you see an agent doing something “non‑coding,” don’t be too surprised. It may just be using code — behind the scenes — to solve problems you didn’t expect it to handle.
+So the next time you see an agent doing something “non‑coding,” don’t be too surprised. It may just be using code behind the scenes to solve problems you didn’t expect it to handle.
 
 From a higher vantage point, the generalization of agent scaffolding stems from the **generality of automation itself**. And automation is exactly what computers are best at.
 

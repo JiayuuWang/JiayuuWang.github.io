@@ -104,7 +104,7 @@ Introducing Operator](https://openai.com/zh-Hans-CN/index/introducing-operator/)
 
 CLI（命令行界面）和 API 方式有一个根本性的局限：**一旦一个系统既没有结构化接口、也无法通过 DOM/HTTP 注入脚本，只有"看屏幕+动鼠标"这一条路，传统 CLI 就很难施展拳脚**。例如很多安全敏感场景，只允许通过远程桌面或本地客户端 GUI 访问，而不会暴露任何可编程接口。
 
-举个例子：不少大型企业把最核心的财务系统部署在内网虚拟机里，员工必须先通过 Windows 远程桌面登录，再在远程桌面里打开一款十几年前的厚客户端软件，完成报销审批、合同导出等操作——没有公开 API，也不能在页面里直接注入脚本，你甚至拿不到 DOM 结构。这种情况下，CLI 或浏览器自动化几乎无从下手，但 GUI 方法直接在远程桌面里"看屏幕→移动鼠标→点击菜单→填写表单→导出报表"，像真人一样完成整个流程。
+举个例子：不少大型企业把最核心的财务系统部署在内网虚拟机里，员工必须先通过 Windows 远程桌面登录，再在远程桌面里打开一款十几年前的厚客户端软件，完成报销审批、合同导出等操作。这类系统没有公开 API，也不能在页面里直接注入脚本，你甚至拿不到 DOM 结构。这种情况下，CLI 或浏览器自动化几乎无从下手，但 GUI 方法直接在远程桌面里"看屏幕→移动鼠标→点击菜单→填写表单→导出报表"，像真人一样完成整个流程。
 
 这就是 GUI-Agent 最本质的优势：**它能做任何人类能对电脑做的事情**。鼠标点击、键盘输入、拖拽滑动、下拉选择……这些对 GUI-Agent 来说都是基本动作空间。
 
@@ -114,7 +114,7 @@ CLI（命令行界面）和 API 方式有一个根本性的局限：**一旦一�
 - **它可以适应任何网站**：即使是没有 API 的个人博客、论坛，也能轻松搞定
 - **它可以跨应用工作**：不同应用，甚至不同os的 UI 设计都高度相仿，这使得GUI-Agent在跨应用场景下表现出高度的通用性和灵活性
 
-正如 Anthropic 在介绍 Computer Use 时所说："We are teaching Claude general computer skills—enabling it to use the same interfaces, applications, and workflows that humans use every day."（我们正在教会 Claude 通用的计算机技能——让它能够使用与人类相同的界面、应用程序和工作流程。）[6]
+正如 Anthropic 在介绍 Computer Use 时所说："We are teaching Claude general computer skills, enabling it to use the same interfaces, applications, and workflows that humans use every day."（我们正在教会 Claude 通用的计算机技能，让它能够使用与人类相同的界面、应用程序和工作流程。）[6]
 
 ### 2. 在某些领域，GUI-Agent 能提供更好的体验
 
@@ -135,7 +135,7 @@ GUI-Agent 不仅仅是"更通用"，在某些特定场景下，它能提供明�
 
 **模型的视觉 grounding 能力逐渐增强**
 
-在 ScreenSpot-Pro 这个高难度 Benchmark 上，早期通用多模态模型的最佳成绩只有 18.9%[4]；随后一系列视觉搜索与区域裁剪方法将准确率提升到了 40%+，其中 RegionFocus 在 Qwen2.5-VL-72B 上已经把 ScreenSpot-Pro 的准确率提升到 61.6%[9]。2026 年发布的 UI-Venus 1.5 则进一步将这一数字推高到了 69.6%[12]。虽然还没达到人类水平，但在如此复杂的专业软件场景里，这样的进步已经非常惊人——ScreenSpot-Pro 专门针对高分辨率专业软件设计，包含 23 个应用、跨越 5 个行业和 3 个操作系统，连人类都经常感到棘手。
+在 ScreenSpot-Pro 这个高难度 Benchmark 上，早期通用多模态模型的最佳成绩只有 18.9%[4]；随后一系列视觉搜索与区域裁剪方法将准确率提升到了 40%+，其中 RegionFocus 在 Qwen2.5-VL-72B 上已经把 ScreenSpot-Pro 的准确率提升到 61.6%[9]。2026 年发布的 UI-Venus 1.5 则进一步将这一数字推高到了 69.6%[12]。虽然还没达到人类水平，但在如此复杂的专业软件场景里，这样的进步已经非常惊人。ScreenSpot-Pro 专门针对高分辨率专业软件设计，包含 23 个应用、跨越 5 个行业和 3 个操作系统，连人类都经常感到棘手。
 
 [![Li et al., "ScreenSpot-Pro: GUI Grounding for Professional High-Resolution Computer Use", 2025 ](/images/srceenshot-pro-task.png)](https://arxiv.org/html/2504.07981v1#bib)
 *图为该数据集中的一个任务示例，人类都很难立刻找到正确的按钮！
@@ -146,7 +146,7 @@ Li et al., "ScreenSpot-Pro: GUI Grounding for Professional High-Resolution Compu
 
 **模型的 Agent 能力飞速增长**
 
-2025 年是 Agent 能力爆发的一年。OpenAI 的 o1/o3 系列、Anthropic 的 Claude 4 Sonnet、Google 的 Gemini 2.5，都展示了惊人的推理和规划能力。这些能力对于 GUI-Agent 来说至关重要——毕竟，操作电脑不仅仅是"看到"就够了，还需要"想到怎么做"。
+2025 年是 Agent 能力爆发的一年。OpenAI 的 o1/o3 系列、Anthropic 的 Claude 4 Sonnet、Google 的 Gemini 2.5，都展示了惊人的推理和规划能力。这些能力对于 GUI-Agent 来说至关重要，毕竟，操作电脑不仅仅是"看到"就够了，还需要"想到怎么做"。
 
 **学术研究提供了丰富的 insight**
 
