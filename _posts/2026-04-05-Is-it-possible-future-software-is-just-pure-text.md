@@ -22,7 +22,7 @@ A project called **CLI-Anything** has been making waves in both developer circle
 *CLI-Anything
 Image source: [CLI-Anything Github Repository](https://github.com/HKUDS/CLI-Anything)*
 
-When you open the CLI-Anything repository (the core code lives at https://github.com/HKUDS/CLI-Anything/tree/main/cli-anything-plugin), you'll notice something unusual: **there's almost no code in this project; it's mostly `.md` files**, plain-text Markdown documents. These documents describe in natural language the SOPs for "CLI-ifying" a target application, as well as how to use various CLI tools and workflows. Your local coding agent (like Claude Code) then "reads and executes" them. In other words, the coding agent becomes the software's "runtime" and "driver."
+When you open the CLI-Anything repository (the core code lives at https://github.com/HKUDS/CLI-Anything/tree/main/cli-anything-plugin), you'll notice something unusual: **there's almost no code in this project. It's mostly `.md` files**, plain-text Markdown documents. These documents describe in natural language the SOPs for "CLI-ifying" a target application, as well as how to use various CLI tools and workflows. Your local coding agent (like Claude Code) then "reads and executes" them. In other words, the coding agent becomes the software's "runtime" and "driver."
 
 That observation led me to a question: **Is it possible that future software is just a bunch of pure text?**
 
@@ -52,7 +52,7 @@ What CLI-Anything represents is a different possibility:
 
 On the surface, the difference is just "a different middle layer." But the implications run much deeper.
 
-In the traditional paradigm, the "content" of software is machine code or bytecode. It's designed for machines; humans find it hard or impossible to read. Software protection relies on making the underlying intent even harder for humans to recover.
+In the traditional paradigm, the "content" of software is machine code or bytecode. It's designed for machines. Humans find it hard or impossible to read. Software protection relies on making the underlying intent even harder for humans to recover.
 
 In the new paradigm, the "content" of software is natural language. It's fundamentally written for humans, and can also be executed by an agent. This means: **for the first time, software can be simultaneously readable by both humans and machines.**
 
@@ -66,7 +66,7 @@ You visit a software store and download a "word processor." After installation, 
 
 This sounds absurd at first glance, but it actually touches on a fundamental question: **What is software, really?**
 
-Software isn't the binary itself; binary is just one form of "translation." The core of software is **intent**: a set of logic describing what to do and how to do it. Binary translates that logic into a form machines can read; natural language expresses that logic in a form humans can read. If an agent is powerful enough to "understand" natural language and "execute" it, then the translation step into binary becomes unnecessary.
+Software isn't the binary itself. Binary is just one form of "translation." The core of software is **intent**: a set of logic describing what to do and how to do it. Binary translates that logic into a form machines can read. Natural language expresses that logic in a form humans can read. If an agent is powerful enough to "understand" natural language and "execute" it, then the translation step into binary becomes unnecessary.
 
 ### Real Obstacles Worth Taking Seriously
 
@@ -93,9 +93,9 @@ It's not the first project to do this. Similar projects and practices are multip
 
 **CLAUDE.md and PROJECT.md** are themselves expressions of this paradigm. You see these files in more and more GitHub repositories. They describe in natural language "what this project is, what tech stack it uses, what conventions to follow during development," and the coding agent reads and internalizes them at startup as the foundation for everything that follows. Anthropic's official support and promotion of CLAUDE.md is, in some sense, already incorporating "text as software configuration" into formal norms[2].
 
-**CLI-Anything's own SKILL.md mechanism** is also worth noting. It introduces a SKILL.md file format that packages each CLI tool into an agent-discoverable, agent-installable "skill bundle", so agents can find and install new tools autonomously, without human intervention. This isn't just "text describing functionality" anymore; it's an ecosystem of tools that agents can extend on their own[5].
+**CLI-Anything's own SKILL.md mechanism** is also worth noting. It introduces a SKILL.md file format that packages each CLI tool into an agent-discoverable, agent-installable "skill bundle", so agents can find and install new tools autonomously, without human intervention. This isn't just "text describing functionality" anymore. It's an ecosystem of tools that agents can extend on their own[5].
 
-This bears a resemblance to the "declarative programming" philosophy of earlier decades: you describe *what* you want, not *how* to do it, and let the underlying system decide the execution details. The difference is that the "underlying system" is now a coding agent, and the "declaration language" is now natural language.
+This bears a resemblance to the "declarative programming" philosophy of earlier decades. You describe *what* you want, not *how* to do it, and let the underlying system decide the execution details. The difference is that the "underlying system" is now a coding agent, and the "declaration language" is now natural language.
 
 And as agent capabilities keep growing, this path will go deeper. CLI-Anything today is just "a natural-language guide for CLI tools." But the boundary won't stay there.
 
@@ -112,7 +112,7 @@ In the future, when you run an installer, what it may install is a bundle of str
 [![How to make an installer to your program](/images/installer.jpg)](https://www.youtube.com/watch?v=CGqba0tb2NQ)
 *Image source: [How to make an installer to your program](https://github.com/HKUDS/CLI-Anything)*
 
-CLI-Anything is just a small sample, but it gave me a genuine sense that **agent-as-runtime "pure text software" isn't just a thought experiment; in some contexts, it's already working.**
+CLI-Anything is just a small sample, but it gave me a genuine sense that **agent-as-runtime "pure text software" isn't just a thought experiment. In some contexts, it's already working.**
 
 Where it goes from here is well worth watching.
 

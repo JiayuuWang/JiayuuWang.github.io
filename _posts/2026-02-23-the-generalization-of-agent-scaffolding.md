@@ -43,10 +43,10 @@ An LLM:
 - does not read files by itself,
 - does not access the network on its own.
 
-It’s a **powerful sequence generator**, not an app. It has no idea which product it’s embedded in or who is using it; it just maps input to output.
+It’s a **powerful sequence generator**, not an app. It has no idea which product it’s embedded in or who is using it. It just maps input to output.
 
 **LLM Agent**  
-An LLM agent is what you get when you wrap an LLM with a “body” and “senses.” The LLM is still the brain, but you attach “hands and eyes” around it: tools for:
+An LLM agent is what you get when you wrap an LLM with a “body” and “senses.” The LLM is still the brain, but you attach “hands and eyes” around it. These are tools for:
 - reading and writing files,  
 - executing shell commands,  
 - calling HTTP APIs,  
@@ -63,14 +63,14 @@ Claude Code is a classic example of an LLM agent: internally it has multiple sub
 From：[terminal-bench](https://www.tbench.ai/leaderboard/terminal-bench/2.0)*
 
 **LLM Application**  
-An LLM application sits one layer above agents; it’s the **product** you actually use. It isn’t just an agent; it’s a full system that includes:
+An LLM application sits one layer above agents. It’s the **product** you actually use. It isn’t just an agent. It’s a full system that includes:
 - front‑end interfaces (web UI, desktop app, IDE plugin, mobile app),  
 - back‑end services (auth, logging, billing, permissions, org management, etc.),  
 - one or more LLMs / LLM agents as its internal engines.
 
 For example:
 - ChatGPT is an LLM‑based application. Behind the scenes it likely orchestrates multiple models, multiple agents, and multiple tool systems, but the user only sees a single product.  
-- The AI coding tool you’re using inside your IDE is also an LLM application; it just happens to live inside your editor.
+- The AI coding tool you’re using inside your IDE is also an LLM application. It just happens to live inside your editor.
 
 In other words:
 - **“LLM”** is the chip,  
@@ -136,7 +136,7 @@ But CoT still only addresses **thinking**, not **doing**. The model can reason i
 
 ### 3. ReAct: Reasoning + Acting
 
-In 2022, Yao et al. published the ReAct paper[2], with a key insight: **it’s not enough for the model to think; it also has to act.**
+In 2022, Yao et al. published the ReAct paper[2], with a key insight: **it’s not enough for the model to think. It also has to act.**
 
 ReAct’s core loop is “Thought → Action → Observation”:
 1. **Thought**: Analyze the situation and plan the next step.  
@@ -170,14 +170,14 @@ This design philosophy later spread more broadly and evolved into the terminal�
 By 2024–2025, **terminal‑native agents** became a major trend.
 
 - **Claude Code** is Anthropic’s terminal‑native AI coding assistant. It supports two core modes[5]:  
-  - **Terminal mode** for interactive development;  
+  - **Terminal mode** for interactive development.  
   - **Gateway mode** for 24/7 operation, listening to sources like WhatsApp, Telegram, Slack, etc.
 
   A key innovation is its **sub‑agent** architecture. Claude Code can run multiple parallel agents, each with its own context window, model choice, tool access, and permissions. A dedicated Explore agent (running a smaller model like Claude Haiku) is used for code search, while more complex work is routed to Sonnet or Opus[5].
 
 - **OpenCode** is another notable project. As an open‑source coding agent, it has amassed well over 100K GitHub stars and is used by millions of developers[6]. Its core idea is **“provider‑agnostic”**: it supports 70+ model providers, including Claude, GPT, Gemini, and many local models[6].
 
-These systems are no longer just “good prompts”; they are full scaffolds for autonomous coding agents.
+These systems are no longer just “good prompts”. They are full scaffolds for autonomous coding agents.
 
 ## How Claude Code‑Style Agents Actually Work
 
@@ -222,7 +222,7 @@ This is why one Morph analyst could say: “We tested 15 AI coding agents and fo
 ## Why Does Agent Scaffolding Generalize So Well?
 
 Looking at the workflow above, you might think: “That’s it? It’s not that fancy.”  
-And you’d be right: there are no magical tricks, just a clean design.
+And you’d be right. There are no magical tricks, just a clean design.
 
 So here’s the core question of this article:  
 **Why do scaffolds designed for coding tasks perform so well on many non‑coding tasks?**
@@ -266,7 +266,7 @@ Practically, this means agents can now:
 - generating a report,  
 - emailing it to a mailing list.
 
-With MCP and Skills combined, the scaffold essentially gains an **extensible toolbox**. It’s no longer constrained to code tasks; it can reach into almost any system you expose.
+With MCP and Skills combined, the scaffold essentially gains an **extensible toolbox**. It’s no longer constrained to code tasks. It can reach into almost any system you expose.
 
 [![Skillsmp ](/images/skillsmp.png)](https://skillsmp.com/)
 *From：[Skillsmp official site](https://skillsmp.com/)*
